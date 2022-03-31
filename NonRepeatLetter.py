@@ -12,9 +12,11 @@ def _FindNonRepeat(_InputString, chars):
             #print(_NonRepeat)
     return(_NonRepeat)
     
+def _FindNonRepeat2(_InputString, chars):
+    return(_InputString.count('a'))
 
 chars = 'abcdefghijklmnopqrstuvwxyz'
 input = 'aaacccssddbddd'
  
-NonRepeat = _FindNonRepeat(input, chars)
+NonRepeat = _FindNonRepeat2(input, chars)
 print(NonRepeat)
