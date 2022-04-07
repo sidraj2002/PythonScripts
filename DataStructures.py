@@ -59,12 +59,12 @@ def SumLinkedLists(input0,input1):
         input1 = input1.next
     FinalSum = {}
     count = 0
-    print(SumDict2)
+    #print(SumDict2)
     while count < len(SumDict) and count < len(SumDict2):
         FinalSum[count] = int(SumDict[count]) + int(SumDict2[count])
         #print(FinalSum[count])
         count = count + 1
-    return FinalSum
+    return list(FinalSum.values())
     #print(SumDict)
             
 class BinaryTree:
@@ -110,7 +110,7 @@ NewList2.PopulateList(Input2)
 
 Input3 = {}
 Input3 = SumLinkedLists(NewList1,NewList2)
-print(Input3)
+#print(Input3)
 NewList3 = LinkedList()
 NewList3.PopulateList(Input3)
 NewList3.ListPrint()
