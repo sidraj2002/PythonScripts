@@ -62,7 +62,7 @@ def SumLinkedLists(input0,input1):
     print(SumDict2)
     while count < len(SumDict) and count < len(SumDict2):
         FinalSum[count] = int(SumDict[count]) + int(SumDict2[count])
-        print(FinalSum[count])
+        #print(FinalSum[count])
         count = count + 1
     return FinalSum
     #print(SumDict)
@@ -108,4 +108,9 @@ NewList2 = LinkedList()
 NewList2.PopulateList(Input2)
 
 
-SumLinkedLists(NewList1,NewList2)
+Input3 = {}
+Input3 = SumLinkedLists(NewList1,NewList2)
+print(Input3)
+NewList3 = LinkedList()
+NewList3.PopulateList(Input3)
+NewList3.ListPrint()
