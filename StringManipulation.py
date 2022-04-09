@@ -39,7 +39,22 @@ def ReverseString2(InputString):
     str = reversed(InputString)
     for i in str:
         print(i)
-    
+        
+def BubbleSort(Input):
+    x = 0
+    dict = {}
+    count = 0
+    for i in Input:
+        dict[count] = i
+    for i in range(len(Input)-1,0,-1):
+        for j in range(i):
+            if Input[j] > Input[j+1]:
+                x = Input[j]
+                Input[j] = Input[j+1]
+                Input[j+1] = x
+ 
+    print(Input)
 #print(ReverseString('abcdefghijk'))
 #print(Palindrom2('1211'))
-ReverseString('siddharth')
+#ReverseString('siddharth')
+BubbleSort([2,5,1,3,5,6])
