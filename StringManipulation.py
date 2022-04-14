@@ -92,18 +92,21 @@ def RomanAddition(Input):
     return count
     
 def WordCountString(InputString):
+    InputString = InputString+'*'
     count = 0
     dict2 = {}
     j = 0
     x = ''
+    
     for i in range(len(InputString)):
-        if (InputString[i] == ' ') and (InputString[i+1] != ' '):
-            count = count + 1
-            dict2[j] = x
-            x = ''
-            j = j + 1
-        if (InputString[i]) != ' ':
-            x = x + InputString[i]
+        if InputString[i] != '*':
+            if (InputString[i] == ' ') and (InputString[i+1] != ' '):
+                count = count + 1
+                dict2[j] = x
+                x = ''
+                j = j + 1
+            if (InputString[i]) != ' ':
+                x = x + InputString[i]
     j = j+1
     dict2[j] = x
     return count+1,dict2    
@@ -113,7 +116,7 @@ def WordCountString(InputString):
 #ReverseString('siddharth')
 #BubbleSort([2,5,1,3,5,6])
 #print(RomanAddition('III'))
-numberofwords = WordCountString('Hello       MyName Is Earl')
+numberofwords = WordCountString('Hello,    My Name I Anu ')
 print(numberofwords)
 '''
 string = 'abcdefghijk'
