@@ -92,7 +92,8 @@ def RomanAddition(Input):
     return count
     
 def WordCountString(InputString):
-    InputString = InputString+'*'
+    InputString = InputString+'*' 
+    '''Adding trailing character to indicate end of string'''
     count = 0
     dict2 = {}
     j = 0
@@ -109,15 +110,54 @@ def WordCountString(InputString):
                 x = x + InputString[i]
     j = j+1
     dict2[j] = x
-    return count+1,dict2    
+    print(dict2.values().index('Anu'))
+    return count,dict2    
+
+def LongestNonRepeatingString(InputString):
+    outputString = InputString[0]
+    for i in InputString:
+        for j in range(1,len(InputString)):
+            if i == InputString[j]:
+                print(j)
+                return outputString
+            else:
+                outputString = outputString + InputString[j]
+    return outputString
+
+def longestPalindromSubstring(InputString):
+    
+    a = InputString
+    b = InputString[::-1]
+    
+    for i in range(len(a)-1):
+        for j in range(len(b)-1):
+            if (a[i] == b[j]) and (a[i+1] == b[j+1]):
+                return InputString[i:len(InputString)-j]
+            
+    return False
 
 #print(ReverseString('abcdefghijk'))
 #print(Palindrom2('1211'))
 #ReverseString('siddharth')
 #BubbleSort([2,5,1,3,5,6])
 #print(RomanAddition('III'))
-numberofwords = WordCountString('Hello,    My Name I Anu ')
-print(numberofwords)
+#numberofwords = WordCountString('Hello,    My Name I Anu ')
+#print(numberofwords)
+print(LongestNonRepeatingString('pwwkew'))
+#print(longestPalindromSubstring('dvd'))
+'''
+Use following:
+.join
+f.open()
+reveresed()
+split()
+.append()
+Stream
+read chunks
+key,value traversal
+O(N) or OlogN optimization
+Window approach
+'''
 '''
 string = 'abcdefghijk'
 var = list(string)
