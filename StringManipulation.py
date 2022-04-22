@@ -1,3 +1,10 @@
+from datetime import datetime
+import random
+import string
+import time
+from random import choice
+from datetime import datetime, date, time, timedelta
+
 def ReverseString(InputString):
     reverseString = {}
     count = 0
@@ -136,6 +143,47 @@ def longestPalindromSubstring(InputString):
             
     return False
 
+def RandomStringGen():
+    output = ''
+    output = (''.join(random.choice(string.ascii_letters) for i in range(10)))
+    return output
+    
+def DataWriter(InputData):
+    dt = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    file = open('/home/ec2-user/environment/Python_Scripts/PythonScripts/testdir/testlog.txt', 'a')
+    line = InputData + ' ' + dt + '\n'
+    file.write(line)
+    file.close()
+def DataFetcher(Seconds, InputFile):
+    dt = datetime.now()
+    timeNow = dt.strftime("%Y-%m-%d %H:%M:%S")
+    print(timeNow)
+    File = open(InputFile, 'r')
+    count = 0
+    temp = File.readline()
+    while temp != '':
+        temp = File.readline()
+        #temp = temp.reverse()
+        print(temp)
+    #For count = timeNow[]
+
+def DataWriter2(InputData):
+    output = ()
+    dt = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    newData = InputData + '/' + dt
+    output = tuple([newData],)
+    #print(output)
+    return output
+def DataFetcher2(Period, InputData):
+    dt = datetime.now()
+    delta = dt + timedelta(seconds=Period)
+    for i in InputData:
+        split = i[0].split('/')
+        if split > delta:
+            print(InputData)
+        else:
+            continue
+
 #print(ReverseString('abcdefghijk'))
 #print(Palindrom2('1211'))
 #ReverseString('siddharth')
@@ -143,8 +191,22 @@ def longestPalindromSubstring(InputString):
 #print(RomanAddition('III'))
 #numberofwords = WordCountString('Hello,    My Name I Anu ')
 #print(numberofwords)
-print(LongestNonRepeatingString('pwwkew'))
+#print(LongestNonRepeatingString('pwwkew'))
 #print(longestPalindromSubstring('dvd'))
+''' File reader / Write '''
+#counter = 0
+#while counter < 60:
+#    rand = RandomStringGen()
+#    DataWriter(rand)
+#    counter = counter + 1
+#    time.sleep(1)
+#DataFetcher(10,'/home/ec2-user/environment/Python_Scripts/PythonScripts/testdir/testlog.txt')
+data = ()
+for i in range(60):
+    randStr = ''.join(random.choice(string.ascii_letters) for i in range(10))
+    data = (data) + tuple([DataWriter2(randStr)])
+#print(data)
+DataFetcher2(-10, data)
 '''
 Use following:
 .join

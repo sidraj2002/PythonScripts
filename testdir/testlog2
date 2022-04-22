@@ -1,0 +1,535 @@
+Apr 17 19:55:47 ip-172-31-72-201 sshd[17361]: Received disconnect from 35.172.155.192 port 63529:11: disconnected by user
+Apr 17 19:55:47 ip-172-31-72-201 sshd[17361]: Disconnected from 35.172.155.192 port 63529
+Apr 17 19:55:47 ip-172-31-72-201 sshd[17310]: pam_unix(sshd:session): session closed for user ec2-user
+Apr 17 19:55:48 ip-172-31-72-201 sshd[19962]: Did not receive identification string from 35.172.155.194 port 12260
+Apr 17 19:55:48 ip-172-31-72-201 sshd[19963]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:z5wEVb3wHoNRty06MHzETFW7Su667R/Qpmw31RMNv4Q failed, status 22
+Apr 17 19:55:48 ip-172-31-72-201 sshd[19963]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:z5wEVb3wHoNRty06MHzETFW7Su667R/Qpmw31RMNv4Q failed, status 22
+Apr 17 19:55:48 ip-172-31-72-201 sshd[19963]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:z5wEVb3wHoNRty06MHzETFW7Su667R/Qpmw31RMNv4Q failed, status 22
+Apr 17 19:55:48 ip-172-31-72-201 sshd[19963]: Accepted publickey for ec2-user from 35.172.155.194 port 47438 ssh2: ECDSA-CERT ID a3990f60-7d5a-4609-bac7-93268856b3f1 (serial 0) CA RSA SHA256:g8ZFoYqLVEjTLDYYVCwmBWNxIIlNCfcp/jw1LjNHU2U
+Apr 17 19:55:48 ip-172-31-72-201 sshd[19963]: pam_unix(sshd:session): session opened for user ec2-user by (uid=0)
+Apr 17 19:55:48 ip-172-31-72-201 sshd[20013]: Received disconnect from 35.172.155.194 port 47438:11: disconnected by user
+Apr 17 19:55:48 ip-172-31-72-201 sshd[20013]: Disconnected from 35.172.155.194 port 47438
+Apr 17 19:55:48 ip-172-31-72-201 sshd[19963]: pam_unix(sshd:session): session closed for user ec2-user
+Apr 17 19:55:49 ip-172-31-72-201 sshd[20016]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:efw1OIhd/ZvsB2MIQH3+/TDQR1CLdFgNmSypoRrCdwc failed, status 22
+Apr 17 19:55:49 ip-172-31-72-201 sshd[20016]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:efw1OIhd/ZvsB2MIQH3+/TDQR1CLdFgNmSypoRrCdwc failed, status 22
+Apr 17 19:55:49 ip-172-31-72-201 sshd[20016]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:efw1OIhd/ZvsB2MIQH3+/TDQR1CLdFgNmSypoRrCdwc failed, status 22
+Apr 17 19:55:49 ip-172-31-72-201 sshd[20016]: Accepted publickey for ec2-user from 35.172.155.192 port 38876 ssh2: ECDSA-CERT ID f0107d0e-cbe4-465b-9461-f5630a7dbcfc (serial 0) CA RSA SHA256:g8ZFoYqLVEjTLDYYVCwmBWNxIIlNCfcp/jw1LjNHU2U
+Apr 17 19:55:49 ip-172-31-72-201 sshd[20016]: pam_unix(sshd:session): session opened for user ec2-user by (uid=0)
+Apr 17 21:26:04 ip-172-31-72-201 sshd[20072]: Received disconnect from 35.172.155.192 port 38876:11: disconnected by user
+Apr 17 21:26:04 ip-172-31-72-201 sshd[20072]: Disconnected from 35.172.155.192 port 38876
+Apr 17 21:26:04 ip-172-31-72-201 sshd[20016]: pam_unix(sshd:session): session closed for user ec2-user
+Apr 17 21:27:01 ip-172-31-72-201 sudo:    root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/sbin/shutdown -h 60
+Apr 17 21:27:01 ip-172-31-72-201 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 17 21:27:01 ip-172-31-72-201 sudo: pam_unix(sudo:session): session closed for user root
+Apr 17 21:33:57 ip-172-31-72-201 sshd[24424]: Did not receive identification string from 35.172.155.192 port 8710
+Apr 17 21:33:57 ip-172-31-72-201 sshd[24425]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:AFW8W2ukmq3/q50D/+ob0IZZfYRtPGKUycaVWWnPHD0 failed, status 22
+Apr 17 21:33:57 ip-172-31-72-201 sshd[24425]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:AFW8W2ukmq3/q50D/+ob0IZZfYRtPGKUycaVWWnPHD0 failed, status 22
+Apr 17 21:33:57 ip-172-31-72-201 sshd[24425]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:AFW8W2ukmq3/q50D/+ob0IZZfYRtPGKUycaVWWnPHD0 failed, status 22
+Apr 17 21:33:57 ip-172-31-72-201 sshd[24425]: Accepted publickey for ec2-user from 35.172.155.192 port 33882 ssh2: ECDSA-CERT ID ae046ac9-f95d-4aa2-8c11-8dc1edaaf7e4 (serial 0) CA RSA SHA256:g8ZFoYqLVEjTLDYYVCwmBWNxIIlNCfcp/jw1LjNHU2U
+Apr 17 21:33:57 ip-172-31-72-201 sshd[24425]: pam_unix(sshd:session): session opened for user ec2-user by (uid=0)
+Apr 17 21:33:57 ip-172-31-72-201 sshd[24475]: Received disconnect from 35.172.155.192 port 33882:11: disconnected by user
+Apr 17 21:33:57 ip-172-31-72-201 sshd[24475]: Disconnected from 35.172.155.192 port 33882
+Apr 17 21:33:57 ip-172-31-72-201 sshd[24425]: pam_unix(sshd:session): session closed for user ec2-user
+Apr 17 21:33:58 ip-172-31-72-201 sshd[24485]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:EkBMHec0fvzggxEYILpXv8hRO47mIbAj3jx3rylmbZ8 failed, status 22
+Apr 17 21:33:58 ip-172-31-72-201 sshd[24485]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:EkBMHec0fvzggxEYILpXv8hRO47mIbAj3jx3rylmbZ8 failed, status 22
+Apr 17 21:33:58 ip-172-31-72-201 sshd[24485]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:EkBMHec0fvzggxEYILpXv8hRO47mIbAj3jx3rylmbZ8 failed, status 22
+Apr 17 21:33:58 ip-172-31-72-201 sshd[24485]: Accepted publickey for ec2-user from 35.172.155.192 port 38454 ssh2: ECDSA-CERT ID 74b18126-970a-42ba-86e3-7c841f42e1ed (serial 0) CA RSA SHA256:g8ZFoYqLVEjTLDYYVCwmBWNxIIlNCfcp/jw1LjNHU2U
+Apr 17 21:33:58 ip-172-31-72-201 sshd[24485]: pam_unix(sshd:session): session opened for user ec2-user by (uid=0)
+Apr 17 21:34:01 ip-172-31-72-201 sudo:    root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/sbin/shutdown -c
+Apr 17 21:34:01 ip-172-31-72-201 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 17 21:34:01 ip-172-31-72-201 sudo: pam_unix(sudo:session): session closed for user root
+Apr 17 21:39:58 ip-172-31-72-201 sshd[24535]: Received disconnect from 35.172.155.192 port 38454:11: disconnected by user
+Apr 17 21:39:58 ip-172-31-72-201 sshd[24535]: Disconnected from 35.172.155.192 port 38454
+Apr 17 21:39:58 ip-172-31-72-201 sshd[24485]: pam_unix(sshd:session): session closed for user ec2-user
+Apr 17 21:39:59 ip-172-31-72-201 sshd[27218]: Did not receive identification string from 35.172.155.193 port 52330
+Apr 17 21:39:59 ip-172-31-72-201 sshd[27219]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:uQBJQO8m8XEy2VSn0gv1AIWFORckShmrSMJRB9VrDTw failed, status 22
+Apr 17 21:39:59 ip-172-31-72-201 sshd[27219]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:uQBJQO8m8XEy2VSn0gv1AIWFORckShmrSMJRB9VrDTw failed, status 22
+Apr 17 21:39:59 ip-172-31-72-201 sshd[27219]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:uQBJQO8m8XEy2VSn0gv1AIWFORckShmrSMJRB9VrDTw failed, status 22
+Apr 17 21:40:00 ip-172-31-72-201 sshd[27219]: Accepted publickey for ec2-user from 35.172.155.193 port 10475 ssh2: ECDSA-CERT ID de9ddb2f-1dcb-413f-b98b-00f34a2cd142 (serial 0) CA RSA SHA256:g8ZFoYqLVEjTLDYYVCwmBWNxIIlNCfcp/jw1LjNHU2U
+Apr 17 21:40:00 ip-172-31-72-201 sshd[27219]: pam_unix(sshd:session): session opened for user ec2-user by (uid=0)
+Apr 17 21:40:00 ip-172-31-72-201 sshd[27275]: Received disconnect from 35.172.155.193 port 10475:11: disconnected by user
+Apr 17 21:40:00 ip-172-31-72-201 sshd[27275]: Disconnected from 35.172.155.193 port 10475
+Apr 17 21:40:00 ip-172-31-72-201 sshd[27219]: pam_unix(sshd:session): session closed for user ec2-user
+Apr 17 21:40:00 ip-172-31-72-201 sshd[27278]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:TwcmyigfDypJ13g/FykAft2+LKNLNrBobpu1M9v5r2Q failed, status 22
+Apr 17 21:40:00 ip-172-31-72-201 sshd[27278]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:TwcmyigfDypJ13g/FykAft2+LKNLNrBobpu1M9v5r2Q failed, status 22
+Apr 17 21:40:00 ip-172-31-72-201 sshd[27278]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:TwcmyigfDypJ13g/FykAft2+LKNLNrBobpu1M9v5r2Q failed, status 22
+Apr 17 21:40:00 ip-172-31-72-201 sshd[27278]: Accepted publickey for ec2-user from 35.172.155.192 port 24566 ssh2: ECDSA-CERT ID 58dc3dca-c754-45cb-a6e4-f93d82ae06c2 (serial 0) CA RSA SHA256:g8ZFoYqLVEjTLDYYVCwmBWNxIIlNCfcp/jw1LjNHU2U
+Apr 17 21:40:00 ip-172-31-72-201 sshd[27278]: pam_unix(sshd:session): session opened for user ec2-user by (uid=0)
+Apr 17 22:18:05 ip-172-31-72-201 sshd[27328]: Received disconnect from 35.172.155.192 port 24566:11: disconnected by user
+Apr 17 22:18:05 ip-172-31-72-201 sshd[27328]: Disconnected from 35.172.155.192 port 24566
+Apr 17 22:18:05 ip-172-31-72-201 sshd[27278]: pam_unix(sshd:session): session closed for user ec2-user
+Apr 17 22:19:01 ip-172-31-72-201 sudo:    root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/sbin/shutdown -h 60
+Apr 17 22:19:01 ip-172-31-72-201 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 17 22:19:01 ip-172-31-72-201 sudo: pam_unix(sudo:session): session closed for user root
+Apr 17 22:21:47 ip-172-31-72-201 sshd[14991]: Did not receive identification string from 35.172.155.193 port 29464
+Apr 17 22:21:47 ip-172-31-72-201 sshd[14992]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:GtJ7QUMP4FsXwr4gefPFBKBQfAaI4RbLU3wgM51P9kw failed, status 22
+Apr 17 22:21:47 ip-172-31-72-201 sshd[14992]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:GtJ7QUMP4FsXwr4gefPFBKBQfAaI4RbLU3wgM51P9kw failed, status 22
+Apr 17 22:21:47 ip-172-31-72-201 sshd[14992]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:GtJ7QUMP4FsXwr4gefPFBKBQfAaI4RbLU3wgM51P9kw failed, status 22
+Apr 17 22:21:47 ip-172-31-72-201 sshd[14992]: Accepted publickey for ec2-user from 35.172.155.193 port 55592 ssh2: ECDSA-CERT ID abdd10ba-a476-4215-ae7d-378f68b4c187 (serial 0) CA RSA SHA256:g8ZFoYqLVEjTLDYYVCwmBWNxIIlNCfcp/jw1LjNHU2U
+Apr 17 22:21:47 ip-172-31-72-201 sshd[14992]: pam_unix(sshd:session): session opened for user ec2-user by (uid=0)
+Apr 17 22:21:47 ip-172-31-72-201 sshd[15042]: Received disconnect from 35.172.155.193 port 55592:11: disconnected by user
+Apr 17 22:21:47 ip-172-31-72-201 sshd[15042]: Disconnected from 35.172.155.193 port 55592
+Apr 17 22:21:47 ip-172-31-72-201 sshd[14992]: pam_unix(sshd:session): session closed for user ec2-user
+Apr 17 22:21:48 ip-172-31-72-201 sshd[15052]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:aRMaFNqFy3ZNXEh0fEVSiZrM3jXbSb+BnATS3yvTanE failed, status 22
+Apr 17 22:21:48 ip-172-31-72-201 sshd[15052]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:aRMaFNqFy3ZNXEh0fEVSiZrM3jXbSb+BnATS3yvTanE failed, status 22
+Apr 17 22:21:48 ip-172-31-72-201 sshd[15052]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:aRMaFNqFy3ZNXEh0fEVSiZrM3jXbSb+BnATS3yvTanE failed, status 22
+Apr 17 22:21:48 ip-172-31-72-201 sshd[15052]: Accepted publickey for ec2-user from 35.172.155.192 port 59852 ssh2: ECDSA-CERT ID 7f3ee509-a643-4a20-9643-fc483eb3bb89 (serial 0) CA RSA SHA256:g8ZFoYqLVEjTLDYYVCwmBWNxIIlNCfcp/jw1LjNHU2U
+Apr 17 22:21:48 ip-172-31-72-201 sshd[15052]: pam_unix(sshd:session): session opened for user ec2-user by (uid=0)
+Apr 17 22:22:01 ip-172-31-72-201 sudo:    root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/sbin/shutdown -c
+Apr 17 22:22:01 ip-172-31-72-201 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 17 22:22:01 ip-172-31-72-201 sudo: pam_unix(sudo:session): session closed for user root
+Apr 17 22:58:38 ip-172-31-72-201 sudo: ec2-user : TTY=unknown ; PWD=/home/ec2-user ; USER=root ; COMMAND=/bin/true
+Apr 17 22:58:38 ip-172-31-72-201 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 17 22:58:38 ip-172-31-72-201 sudo: pam_unix(sudo:session): session closed for user root
+Apr 17 22:58:38 ip-172-31-72-201 sudo: ec2-user : TTY=unknown ; PWD=/home/ec2-user ; USER=root ; COMMAND=/sbin/lsof -i:15454 -t
+Apr 17 22:58:38 ip-172-31-72-201 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 17 22:58:38 ip-172-31-72-201 sudo: pam_unix(sudo:session): session closed for user root
+Apr 17 22:58:38 ip-172-31-72-201 sudo: ec2-user : TTY=unknown ; PWD=/home/ec2-user ; USER=root ; COMMAND=/bin/kill -9
+Apr 17 22:58:38 ip-172-31-72-201 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 17 22:58:38 ip-172-31-72-201 sudo: pam_unix(sudo:session): session closed for user root
+Apr 18 00:20:03 ip-172-31-72-201 sshd[15102]: Received disconnect from 35.172.155.192 port 59852:11: disconnected by user
+Apr 18 00:20:03 ip-172-31-72-201 sshd[15102]: Disconnected from 35.172.155.192 port 59852
+Apr 18 00:20:03 ip-172-31-72-201 sshd[15052]: pam_unix(sshd:session): session closed for user ec2-user
+Apr 18 00:21:02 ip-172-31-72-201 sudo:    root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/sbin/shutdown -h 60
+Apr 18 00:21:02 ip-172-31-72-201 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 18 00:21:02 ip-172-31-72-201 sudo: pam_unix(sudo:session): session closed for user root
+Apr 18 00:32:16 ip-172-31-72-201 sshd[19182]: Did not receive identification string from 35.172.155.194 port 29108
+Apr 18 00:32:16 ip-172-31-72-201 sshd[19189]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:UzqqXo/ebcH5Nd53jG34XWNb1nD+AP0Xr00V9pmpRLw failed, status 22
+Apr 18 00:32:16 ip-172-31-72-201 sshd[19189]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:UzqqXo/ebcH5Nd53jG34XWNb1nD+AP0Xr00V9pmpRLw failed, status 22
+Apr 18 00:32:16 ip-172-31-72-201 sshd[19189]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:UzqqXo/ebcH5Nd53jG34XWNb1nD+AP0Xr00V9pmpRLw failed, status 22
+Apr 18 00:32:16 ip-172-31-72-201 sshd[19189]: Accepted publickey for ec2-user from 35.172.155.194 port 4327 ssh2: ECDSA-CERT ID 545e9bd8-ed5a-435c-9595-5e10f6eafba6 (serial 0) CA RSA SHA256:g8ZFoYqLVEjTLDYYVCwmBWNxIIlNCfcp/jw1LjNHU2U
+Apr 18 00:32:16 ip-172-31-72-201 sshd[19189]: pam_unix(sshd:session): session opened for user ec2-user by (uid=0)
+Apr 18 00:32:16 ip-172-31-72-201 sshd[19239]: Received disconnect from 35.172.155.194 port 4327:11: disconnected by user
+Apr 18 00:32:16 ip-172-31-72-201 sshd[19239]: Disconnected from 35.172.155.194 port 4327
+Apr 18 00:32:16 ip-172-31-72-201 sshd[19189]: pam_unix(sshd:session): session closed for user ec2-user
+Apr 18 00:32:17 ip-172-31-72-201 sshd[19242]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:MxIA+9rBljb05p/D663IrnkkQpL36eNifNjx7F0dE6I failed, status 22
+Apr 18 00:32:17 ip-172-31-72-201 sshd[19242]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:MxIA+9rBljb05p/D663IrnkkQpL36eNifNjx7F0dE6I failed, status 22
+Apr 18 00:32:17 ip-172-31-72-201 sshd[19242]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:MxIA+9rBljb05p/D663IrnkkQpL36eNifNjx7F0dE6I failed, status 22
+Apr 18 00:32:17 ip-172-31-72-201 sshd[19242]: Accepted publickey for ec2-user from 35.172.155.192 port 37503 ssh2: ECDSA-CERT ID 0ff5041c-5616-49a0-9192-8fb77e9e69e9 (serial 0) CA RSA SHA256:g8ZFoYqLVEjTLDYYVCwmBWNxIIlNCfcp/jw1LjNHU2U
+Apr 18 00:32:17 ip-172-31-72-201 sshd[19242]: pam_unix(sshd:session): session opened for user ec2-user by (uid=0)
+Apr 18 00:33:01 ip-172-31-72-201 sudo:    root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/sbin/shutdown -c
+Apr 18 00:33:01 ip-172-31-72-201 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 18 00:33:01 ip-172-31-72-201 sudo: pam_unix(sudo:session): session closed for user root
+Apr 18 00:38:18 ip-172-31-72-201 sshd[19298]: Received disconnect from 35.172.155.192 port 37503:11: disconnected by user
+Apr 18 00:38:18 ip-172-31-72-201 sshd[19298]: Disconnected from 35.172.155.192 port 37503
+Apr 18 00:38:18 ip-172-31-72-201 sshd[19242]: pam_unix(sshd:session): session closed for user ec2-user
+Apr 18 00:39:01 ip-172-31-72-201 sudo:    root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/sbin/shutdown -h 60
+Apr 18 00:39:01 ip-172-31-72-201 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 18 00:39:01 ip-172-31-72-201 sudo: pam_unix(sudo:session): session closed for user root
+Apr 18 00:48:26 ip-172-31-72-201 sshd[25664]: Did not receive identification string from 35.172.155.194 port 64005
+Apr 18 00:48:27 ip-172-31-72-201 sshd[25665]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:QZt4eb0be5wwNqvrfHiqo2jINv/pS2lu+Kx5dyAXqZg failed, status 22
+Apr 18 00:48:27 ip-172-31-72-201 sshd[25665]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:QZt4eb0be5wwNqvrfHiqo2jINv/pS2lu+Kx5dyAXqZg failed, status 22
+Apr 18 00:48:27 ip-172-31-72-201 sshd[25665]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:QZt4eb0be5wwNqvrfHiqo2jINv/pS2lu+Kx5dyAXqZg failed, status 22
+Apr 18 00:48:27 ip-172-31-72-201 sshd[25665]: Accepted publickey for ec2-user from 35.172.155.194 port 23185 ssh2: ECDSA-CERT ID 7f434325-492a-4e47-8f9a-1ce83373d54e (serial 0) CA RSA SHA256:g8ZFoYqLVEjTLDYYVCwmBWNxIIlNCfcp/jw1LjNHU2U
+Apr 18 00:48:27 ip-172-31-72-201 sshd[25665]: pam_unix(sshd:session): session opened for user ec2-user by (uid=0)
+Apr 18 00:48:27 ip-172-31-72-201 sshd[25715]: Received disconnect from 35.172.155.194 port 23185:11: disconnected by user
+Apr 18 00:48:27 ip-172-31-72-201 sshd[25715]: Disconnected from 35.172.155.194 port 23185
+Apr 18 00:48:27 ip-172-31-72-201 sshd[25665]: pam_unix(sshd:session): session closed for user ec2-user
+Apr 18 00:48:28 ip-172-31-72-201 sshd[25718]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:PoUP1+lOeYw6CKovMGtOLbB06Ygwr2tiEfdYMo6N8Qc failed, status 22
+Apr 18 00:48:28 ip-172-31-72-201 sshd[25718]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:PoUP1+lOeYw6CKovMGtOLbB06Ygwr2tiEfdYMo6N8Qc failed, status 22
+Apr 18 00:48:28 ip-172-31-72-201 sshd[25718]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:PoUP1+lOeYw6CKovMGtOLbB06Ygwr2tiEfdYMo6N8Qc failed, status 22
+Apr 18 00:48:28 ip-172-31-72-201 sshd[25718]: Accepted publickey for ec2-user from 35.172.155.192 port 10223 ssh2: ECDSA-CERT ID 4859b231-7074-4ad5-b518-efbd7eadfe53 (serial 0) CA RSA SHA256:g8ZFoYqLVEjTLDYYVCwmBWNxIIlNCfcp/jw1LjNHU2U
+Apr 18 00:48:28 ip-172-31-72-201 sshd[25718]: pam_unix(sshd:session): session opened for user ec2-user by (uid=0)
+Apr 18 00:49:01 ip-172-31-72-201 sudo:    root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/sbin/shutdown -c
+Apr 18 00:49:01 ip-172-31-72-201 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 18 00:49:01 ip-172-31-72-201 sudo: pam_unix(sudo:session): session closed for user root
+Apr 18 00:54:28 ip-172-31-72-201 sshd[25774]: Received disconnect from 35.172.155.192 port 10223:11: disconnected by user
+Apr 18 00:54:28 ip-172-31-72-201 sshd[25774]: Disconnected from 35.172.155.192 port 10223
+Apr 18 00:54:28 ip-172-31-72-201 sshd[25718]: pam_unix(sshd:session): session closed for user ec2-user
+Apr 18 00:55:01 ip-172-31-72-201 sudo:    root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/sbin/shutdown -h 60
+Apr 18 00:55:01 ip-172-31-72-201 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 18 00:55:01 ip-172-31-72-201 sudo: pam_unix(sudo:session): session closed for user root
+Apr 18 00:59:22 ip-172-31-72-201 sshd[30135]: Did not receive identification string from 35.172.155.193 port 21671
+Apr 18 00:59:22 ip-172-31-72-201 sshd[30136]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:tHSrjNF5lzPy0Z0yQ+RBb2h9H5kwyigTlyltYbR/YDc failed, status 22
+Apr 18 00:59:22 ip-172-31-72-201 sshd[30136]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:tHSrjNF5lzPy0Z0yQ+RBb2h9H5kwyigTlyltYbR/YDc failed, status 22
+Apr 18 00:59:22 ip-172-31-72-201 sshd[30136]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:tHSrjNF5lzPy0Z0yQ+RBb2h9H5kwyigTlyltYbR/YDc failed, status 22
+Apr 18 00:59:22 ip-172-31-72-201 sshd[30136]: Accepted publickey for ec2-user from 35.172.155.193 port 25439 ssh2: ECDSA-CERT ID e9a8a04a-9d0f-4fe1-b98c-e57af121f860 (serial 0) CA RSA SHA256:g8ZFoYqLVEjTLDYYVCwmBWNxIIlNCfcp/jw1LjNHU2U
+Apr 18 00:59:22 ip-172-31-72-201 sshd[30136]: pam_unix(sshd:session): session opened for user ec2-user by (uid=0)
+Apr 18 00:59:22 ip-172-31-72-201 sshd[30186]: Received disconnect from 35.172.155.193 port 25439:11: disconnected by user
+Apr 18 00:59:22 ip-172-31-72-201 sshd[30186]: Disconnected from 35.172.155.193 port 25439
+Apr 18 00:59:22 ip-172-31-72-201 sshd[30136]: pam_unix(sshd:session): session closed for user ec2-user
+Apr 18 00:59:23 ip-172-31-72-201 sshd[30195]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:djqtjIzYI8lW7rGjgb82fh+sKRE69SmuUSKMOI/CS3s failed, status 22
+Apr 18 00:59:23 ip-172-31-72-201 sshd[30195]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:djqtjIzYI8lW7rGjgb82fh+sKRE69SmuUSKMOI/CS3s failed, status 22
+Apr 18 00:59:23 ip-172-31-72-201 sshd[30195]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:djqtjIzYI8lW7rGjgb82fh+sKRE69SmuUSKMOI/CS3s failed, status 22
+Apr 18 00:59:23 ip-172-31-72-201 sshd[30195]: Accepted publickey for ec2-user from 35.172.155.192 port 54481 ssh2: ECDSA-CERT ID b4ef8de0-58cd-4d29-b321-b028a51acebc (serial 0) CA RSA SHA256:g8ZFoYqLVEjTLDYYVCwmBWNxIIlNCfcp/jw1LjNHU2U
+Apr 18 00:59:23 ip-172-31-72-201 sshd[30195]: pam_unix(sshd:session): session opened for user ec2-user by (uid=0)
+Apr 18 01:00:01 ip-172-31-72-201 sudo:    root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/sbin/shutdown -c
+Apr 18 01:00:01 ip-172-31-72-201 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 18 01:00:01 ip-172-31-72-201 sudo: pam_unix(sudo:session): session closed for user root
+Apr 18 01:05:23 ip-172-31-72-201 sshd[30245]: Received disconnect from 35.172.155.192 port 54481:11: disconnected by user
+Apr 18 01:05:23 ip-172-31-72-201 sshd[30245]: Disconnected from 35.172.155.192 port 54481
+Apr 18 01:05:23 ip-172-31-72-201 sshd[30195]: pam_unix(sshd:session): session closed for user ec2-user
+Apr 18 01:06:01 ip-172-31-72-201 sudo:    root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/sbin/shutdown -h 60
+Apr 18 01:06:01 ip-172-31-72-201 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 18 01:06:01 ip-172-31-72-201 sudo: pam_unix(sudo:session): session closed for user root
+Apr 18 01:07:09 ip-172-31-72-201 sshd[1111]: Did not receive identification string from 35.172.155.192 port 38492
+Apr 18 01:07:10 ip-172-31-72-201 sshd[1112]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:RzxGjbB5VGbSu49NJDae8ClE2e4PROTE8TPK7jGLL2A failed, status 22
+Apr 18 01:07:10 ip-172-31-72-201 sshd[1112]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:RzxGjbB5VGbSu49NJDae8ClE2e4PROTE8TPK7jGLL2A failed, status 22
+Apr 18 01:07:10 ip-172-31-72-201 sshd[1112]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:RzxGjbB5VGbSu49NJDae8ClE2e4PROTE8TPK7jGLL2A failed, status 22
+Apr 18 01:07:10 ip-172-31-72-201 sshd[1112]: Accepted publickey for ec2-user from 35.172.155.192 port 10726 ssh2: ECDSA-CERT ID 9b57c2d6-482a-4442-960e-3b7c432e9503 (serial 0) CA RSA SHA256:g8ZFoYqLVEjTLDYYVCwmBWNxIIlNCfcp/jw1LjNHU2U
+Apr 18 01:07:10 ip-172-31-72-201 sshd[1112]: pam_unix(sshd:session): session opened for user ec2-user by (uid=0)
+Apr 18 01:07:10 ip-172-31-72-201 sshd[1162]: Received disconnect from 35.172.155.192 port 10726:11: disconnected by user
+Apr 18 01:07:10 ip-172-31-72-201 sshd[1162]: Disconnected from 35.172.155.192 port 10726
+Apr 18 01:07:10 ip-172-31-72-201 sshd[1112]: pam_unix(sshd:session): session closed for user ec2-user
+Apr 18 01:07:11 ip-172-31-72-201 sshd[1172]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:Gq/IFjMYuUa4rQ1P1lWmIDjr7LDmTxtkicKjZewZqEs failed, status 22
+Apr 18 01:07:11 ip-172-31-72-201 sshd[1172]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:Gq/IFjMYuUa4rQ1P1lWmIDjr7LDmTxtkicKjZewZqEs failed, status 22
+Apr 18 01:07:11 ip-172-31-72-201 sshd[1172]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:Gq/IFjMYuUa4rQ1P1lWmIDjr7LDmTxtkicKjZewZqEs failed, status 22
+Apr 18 01:07:11 ip-172-31-72-201 sshd[1172]: Accepted publickey for ec2-user from 35.172.155.192 port 32811 ssh2: ECDSA-CERT ID ce1d6ea8-3bdc-48aa-b76f-5fe2d18359db (serial 0) CA RSA SHA256:g8ZFoYqLVEjTLDYYVCwmBWNxIIlNCfcp/jw1LjNHU2U
+Apr 18 01:07:11 ip-172-31-72-201 sshd[1172]: pam_unix(sshd:session): session opened for user ec2-user by (uid=0)
+Apr 18 01:08:01 ip-172-31-72-201 sudo:    root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/sbin/shutdown -c
+Apr 18 01:08:01 ip-172-31-72-201 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 18 01:08:01 ip-172-31-72-201 sudo: pam_unix(sudo:session): session closed for user root
+Apr 18 01:13:11 ip-172-31-72-201 sshd[1222]: Received disconnect from 35.172.155.192 port 32811:11: disconnected by user
+Apr 18 01:13:11 ip-172-31-72-201 sshd[1222]: Disconnected from 35.172.155.192 port 32811
+Apr 18 01:13:11 ip-172-31-72-201 sshd[1172]: pam_unix(sshd:session): session closed for user ec2-user
+Apr 18 01:14:01 ip-172-31-72-201 sudo:    root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/sbin/shutdown -h 60
+Apr 18 01:14:01 ip-172-31-72-201 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 18 01:14:01 ip-172-31-72-201 sudo: pam_unix(sudo:session): session closed for user root
+Apr 18 01:54:24 ip-172-31-72-201 sshd[19189]: Did not receive identification string from 35.172.155.193 port 27722
+Apr 18 01:54:24 ip-172-31-72-201 sshd[19190]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:7kZ0m2+w4uCsfmOLrkNzMnFh4uIy9OYe+jB/uvpW7i8 failed, status 22
+Apr 18 01:54:24 ip-172-31-72-201 sshd[19190]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:7kZ0m2+w4uCsfmOLrkNzMnFh4uIy9OYe+jB/uvpW7i8 failed, status 22
+Apr 18 01:54:24 ip-172-31-72-201 sshd[19190]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:7kZ0m2+w4uCsfmOLrkNzMnFh4uIy9OYe+jB/uvpW7i8 failed, status 22
+Apr 18 01:54:24 ip-172-31-72-201 sshd[19190]: Accepted publickey for ec2-user from 35.172.155.193 port 2190 ssh2: ECDSA-CERT ID 6472b2ee-d4d5-4782-8e46-057f5e5c74b3 (serial 0) CA RSA SHA256:g8ZFoYqLVEjTLDYYVCwmBWNxIIlNCfcp/jw1LjNHU2U
+Apr 18 01:54:24 ip-172-31-72-201 sshd[19190]: pam_unix(sshd:session): session opened for user ec2-user by (uid=0)
+Apr 18 01:54:24 ip-172-31-72-201 sshd[19240]: Received disconnect from 35.172.155.193 port 2190:11: disconnected by user
+Apr 18 01:54:24 ip-172-31-72-201 sshd[19240]: Disconnected from 35.172.155.193 port 2190
+Apr 18 01:54:24 ip-172-31-72-201 sshd[19190]: pam_unix(sshd:session): session closed for user ec2-user
+Apr 18 01:54:25 ip-172-31-72-201 sshd[19249]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:Qte26G6Rgt8tZyGGaYRK3sFocf2pv8Y3Ox0jGS++RiE failed, status 22
+Apr 18 01:54:25 ip-172-31-72-201 sshd[19249]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:Qte26G6Rgt8tZyGGaYRK3sFocf2pv8Y3Ox0jGS++RiE failed, status 22
+Apr 18 01:54:25 ip-172-31-72-201 sshd[19249]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:Qte26G6Rgt8tZyGGaYRK3sFocf2pv8Y3Ox0jGS++RiE failed, status 22
+Apr 18 01:54:25 ip-172-31-72-201 sshd[19249]: Accepted publickey for ec2-user from 35.172.155.192 port 17403 ssh2: ECDSA-CERT ID 8c43b2b0-6e3b-4db4-a203-97c4d1252ea3 (serial 0) CA RSA SHA256:g8ZFoYqLVEjTLDYYVCwmBWNxIIlNCfcp/jw1LjNHU2U
+Apr 18 01:54:25 ip-172-31-72-201 sshd[19249]: pam_unix(sshd:session): session opened for user ec2-user by (uid=0)
+Apr 18 01:55:01 ip-172-31-72-201 sudo:    root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/sbin/shutdown -c
+Apr 18 01:55:01 ip-172-31-72-201 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 18 01:55:01 ip-172-31-72-201 sudo: pam_unix(sudo:session): session closed for user root
+Apr 18 02:00:25 ip-172-31-72-201 sshd[19305]: Received disconnect from 35.172.155.192 port 17403:11: disconnected by user
+Apr 18 02:00:25 ip-172-31-72-201 sshd[19305]: Disconnected from 35.172.155.192 port 17403
+Apr 18 02:00:25 ip-172-31-72-201 sshd[19249]: pam_unix(sshd:session): session closed for user ec2-user
+Apr 18 02:01:01 ip-172-31-72-201 sudo:    root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/sbin/shutdown -h 60
+Apr 18 02:01:01 ip-172-31-72-201 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 18 02:01:01 ip-172-31-72-201 sudo: pam_unix(sudo:session): session closed for user root
+Apr 18 02:10:51 ip-172-31-72-201 sshd[25783]: Did not receive identification string from 35.172.155.193 port 14714
+Apr 18 02:10:51 ip-172-31-72-201 sshd[25784]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:X5TUF6X9sOgv7CVBBlRdv48L4om19wsIjzq1Ftk8jVk failed, status 22
+Apr 18 02:10:51 ip-172-31-72-201 sshd[25784]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:X5TUF6X9sOgv7CVBBlRdv48L4om19wsIjzq1Ftk8jVk failed, status 22
+Apr 18 02:10:51 ip-172-31-72-201 sshd[25784]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:X5TUF6X9sOgv7CVBBlRdv48L4om19wsIjzq1Ftk8jVk failed, status 22
+Apr 18 02:10:51 ip-172-31-72-201 sshd[25784]: Accepted publickey for ec2-user from 35.172.155.193 port 44709 ssh2: ECDSA-CERT ID 4cd6e4c5-4d59-4bd7-adf7-8bb8d636fa7b (serial 0) CA RSA SHA256:g8ZFoYqLVEjTLDYYVCwmBWNxIIlNCfcp/jw1LjNHU2U
+Apr 18 02:10:51 ip-172-31-72-201 sshd[25784]: pam_unix(sshd:session): session opened for user ec2-user by (uid=0)
+Apr 18 02:10:51 ip-172-31-72-201 sshd[25834]: Received disconnect from 35.172.155.193 port 44709:11: disconnected by user
+Apr 18 02:10:51 ip-172-31-72-201 sshd[25834]: Disconnected from 35.172.155.193 port 44709
+Apr 18 02:10:51 ip-172-31-72-201 sshd[25784]: pam_unix(sshd:session): session closed for user ec2-user
+Apr 18 02:10:52 ip-172-31-72-201 sshd[25843]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:lvz4j9VeeFpzDHtTTC1A97uP2j7zqem9LHGaLpX2nZM failed, status 22
+Apr 18 02:10:52 ip-172-31-72-201 sshd[25843]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:lvz4j9VeeFpzDHtTTC1A97uP2j7zqem9LHGaLpX2nZM failed, status 22
+Apr 18 02:10:52 ip-172-31-72-201 sshd[25843]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:lvz4j9VeeFpzDHtTTC1A97uP2j7zqem9LHGaLpX2nZM failed, status 22
+Apr 18 02:10:52 ip-172-31-72-201 sshd[25843]: Accepted publickey for ec2-user from 35.172.155.192 port 13595 ssh2: ECDSA-CERT ID 2c8eaa43-478a-47da-a8f9-1e5958cd7179 (serial 0) CA RSA SHA256:g8ZFoYqLVEjTLDYYVCwmBWNxIIlNCfcp/jw1LjNHU2U
+Apr 18 02:10:52 ip-172-31-72-201 sshd[25843]: pam_unix(sshd:session): session opened for user ec2-user by (uid=0)
+Apr 18 02:11:01 ip-172-31-72-201 sudo:    root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/sbin/shutdown -c
+Apr 18 02:11:01 ip-172-31-72-201 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 18 02:11:01 ip-172-31-72-201 sudo: pam_unix(sudo:session): session closed for user root
+Apr 18 04:41:22 ip-172-31-72-201 sshd[25893]: Received disconnect from 35.172.155.192 port 13595:11: disconnected by user
+Apr 18 04:41:22 ip-172-31-72-201 sshd[25893]: Disconnected from 35.172.155.192 port 13595
+Apr 18 04:41:22 ip-172-31-72-201 sshd[25843]: pam_unix(sshd:session): session closed for user ec2-user
+Apr 18 04:42:01 ip-172-31-72-201 sudo:    root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/sbin/shutdown -h 60
+Apr 18 04:42:01 ip-172-31-72-201 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 18 04:42:01 ip-172-31-72-201 sudo: pam_unix(sudo:session): session closed for user root
+Apr 18 05:42:01 ip-172-31-72-201 sshd[4194]: Received signal 15; terminating.
+Apr 19 03:15:53 ip-172-31-72-201 sshd[4262]: Server listening on 0.0.0.0 port 22.
+Apr 19 03:15:53 ip-172-31-72-201 sshd[4262]: Server listening on :: port 22.
+Apr 19 03:15:54 ip-172-31-72-201 sshd[4786]: Did not receive identification string from 35.172.155.193 port 51133
+Apr 19 03:15:54 ip-172-31-72-201 sshd[4789]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:9UVc7EmJyjUMa/5KkzK3ImC4eTUE2uuP0/w2yIpoVHM failed, status 22
+Apr 19 03:15:54 ip-172-31-72-201 sshd[4789]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:9UVc7EmJyjUMa/5KkzK3ImC4eTUE2uuP0/w2yIpoVHM failed, status 22
+Apr 19 03:15:54 ip-172-31-72-201 sshd[4789]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:9UVc7EmJyjUMa/5KkzK3ImC4eTUE2uuP0/w2yIpoVHM failed, status 22
+Apr 19 03:15:55 ip-172-31-72-201 sshd[4789]: Accepted publickey for ec2-user from 35.172.155.193 port 11140 ssh2: ECDSA-CERT ID be6256a1-0139-4b56-8985-48b5fc4aecfe (serial 0) CA RSA SHA256:g8ZFoYqLVEjTLDYYVCwmBWNxIIlNCfcp/jw1LjNHU2U
+Apr 19 03:15:55 ip-172-31-72-201 sshd[4789]: pam_unix(sshd:session): session opened for user ec2-user by (uid=0)
+Apr 19 03:15:55 ip-172-31-72-201 sshd[4921]: Received disconnect from 35.172.155.193 port 11140:11: disconnected by user
+Apr 19 03:15:55 ip-172-31-72-201 sshd[4921]: Disconnected from 35.172.155.193 port 11140
+Apr 19 03:15:55 ip-172-31-72-201 sshd[4789]: pam_unix(sshd:session): session closed for user ec2-user
+Apr 19 03:15:56 ip-172-31-72-201 sshd[5053]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:ikkcq6aYOQKkuqBOljgJkMJVDR2vOGoL6mxerkA3v4M failed, status 22
+Apr 19 03:15:56 ip-172-31-72-201 sshd[5053]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:ikkcq6aYOQKkuqBOljgJkMJVDR2vOGoL6mxerkA3v4M failed, status 22
+Apr 19 03:15:56 ip-172-31-72-201 sshd[5053]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:ikkcq6aYOQKkuqBOljgJkMJVDR2vOGoL6mxerkA3v4M failed, status 22
+Apr 19 03:15:56 ip-172-31-72-201 sshd[5053]: Accepted publickey for ec2-user from 35.172.155.192 port 45269 ssh2: ECDSA-CERT ID 25be2b0d-3dbc-4524-9836-cc26781f9c11 (serial 0) CA RSA SHA256:g8ZFoYqLVEjTLDYYVCwmBWNxIIlNCfcp/jw1LjNHU2U
+Apr 19 03:15:56 ip-172-31-72-201 sshd[5053]: pam_unix(sshd:session): session opened for user ec2-user by (uid=0)
+Apr 19 03:15:58 ip-172-31-72-201 sshd[5344]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:fp3GO18Mi0618U43yIuIOYD1AI5wMqKTHYfW2t1Nrg0 failed, status 22
+Apr 19 03:15:58 ip-172-31-72-201 sshd[5344]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:fp3GO18Mi0618U43yIuIOYD1AI5wMqKTHYfW2t1Nrg0 failed, status 22
+Apr 19 03:15:58 ip-172-31-72-201 sshd[5344]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:fp3GO18Mi0618U43yIuIOYD1AI5wMqKTHYfW2t1Nrg0 failed, status 22
+Apr 19 03:15:58 ip-172-31-72-201 sshd[5344]: Accepted publickey for ec2-user from 35.172.155.194 port 26417 ssh2: ECDSA-CERT ID 97e1fe41-6aaf-4e7f-bcae-c0a9f724b880 (serial 0) CA RSA SHA256:g8ZFoYqLVEjTLDYYVCwmBWNxIIlNCfcp/jw1LjNHU2U
+Apr 19 03:15:58 ip-172-31-72-201 sshd[5344]: pam_unix(sshd:session): session opened for user ec2-user by (uid=0)
+Apr 19 03:21:58 ip-172-31-72-201 sshd[5394]: Received disconnect from 35.172.155.194 port 26417:11: disconnected by user
+Apr 19 03:21:58 ip-172-31-72-201 sshd[5394]: Disconnected from 35.172.155.194 port 26417
+Apr 19 03:21:58 ip-172-31-72-201 sshd[5344]: pam_unix(sshd:session): session closed for user ec2-user
+Apr 19 04:10:07 ip-172-31-72-201 sshd[5105]: Received disconnect from 35.172.155.192 port 45269:11: disconnected by user
+Apr 19 04:10:07 ip-172-31-72-201 sshd[5105]: Disconnected from 35.172.155.192 port 45269
+Apr 19 04:10:07 ip-172-31-72-201 sshd[5053]: pam_unix(sshd:session): session closed for user ec2-user
+Apr 19 04:11:01 ip-172-31-72-201 sudo:    root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/sbin/shutdown -h 60
+Apr 19 04:11:01 ip-172-31-72-201 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 19 04:11:01 ip-172-31-72-201 sudo: pam_unix(sudo:session): session closed for user root
+Apr 19 04:17:28 ip-172-31-72-201 sshd[29219]: Did not receive identification string from 35.172.155.193 port 27543
+Apr 19 04:17:28 ip-172-31-72-201 sshd[29220]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:zvI615VpAjKOg4T3srNX9Sw5fV11bj4ROKE5EXF/DJQ failed, status 22
+Apr 19 04:17:28 ip-172-31-72-201 sshd[29220]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:zvI615VpAjKOg4T3srNX9Sw5fV11bj4ROKE5EXF/DJQ failed, status 22
+Apr 19 04:17:28 ip-172-31-72-201 sshd[29220]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:zvI615VpAjKOg4T3srNX9Sw5fV11bj4ROKE5EXF/DJQ failed, status 22
+Apr 19 04:17:28 ip-172-31-72-201 sshd[29220]: Accepted publickey for ec2-user from 35.172.155.193 port 19046 ssh2: ECDSA-CERT ID d30bd8ec-bb9e-45b9-afbd-31dd134486f1 (serial 0) CA RSA SHA256:g8ZFoYqLVEjTLDYYVCwmBWNxIIlNCfcp/jw1LjNHU2U
+Apr 19 04:17:28 ip-172-31-72-201 sshd[29220]: pam_unix(sshd:session): session opened for user ec2-user by (uid=0)
+Apr 19 04:17:28 ip-172-31-72-201 sshd[29270]: Received disconnect from 35.172.155.193 port 19046:11: disconnected by user
+Apr 19 04:17:28 ip-172-31-72-201 sshd[29270]: Disconnected from 35.172.155.193 port 19046
+Apr 19 04:17:28 ip-172-31-72-201 sshd[29220]: pam_unix(sshd:session): session closed for user ec2-user
+Apr 19 04:17:29 ip-172-31-72-201 sshd[29279]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:cJ3PXVnauyBTlpmk5xcbf9BeoSUpIiuaNhNukoZnzWY failed, status 22
+Apr 19 04:17:29 ip-172-31-72-201 sshd[29279]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:cJ3PXVnauyBTlpmk5xcbf9BeoSUpIiuaNhNukoZnzWY failed, status 22
+Apr 19 04:17:29 ip-172-31-72-201 sshd[29279]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:cJ3PXVnauyBTlpmk5xcbf9BeoSUpIiuaNhNukoZnzWY failed, status 22
+Apr 19 04:17:29 ip-172-31-72-201 sshd[29279]: Accepted publickey for ec2-user from 35.172.155.192 port 1262 ssh2: ECDSA-CERT ID 6ca9c80d-6090-4713-8e76-cfb2d5af23df (serial 0) CA RSA SHA256:g8ZFoYqLVEjTLDYYVCwmBWNxIIlNCfcp/jw1LjNHU2U
+Apr 19 04:17:29 ip-172-31-72-201 sshd[29279]: pam_unix(sshd:session): session opened for user ec2-user by (uid=0)
+Apr 19 04:18:01 ip-172-31-72-201 sudo:    root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/sbin/shutdown -c
+Apr 19 04:18:01 ip-172-31-72-201 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 19 04:18:01 ip-172-31-72-201 sudo: pam_unix(sudo:session): session closed for user root
+Apr 19 04:23:30 ip-172-31-72-201 sshd[29329]: Received disconnect from 35.172.155.192 port 1262:11: disconnected by user
+Apr 19 04:23:30 ip-172-31-72-201 sshd[29329]: Disconnected from 35.172.155.192 port 1262
+Apr 19 04:23:30 ip-172-31-72-201 sshd[29279]: pam_unix(sshd:session): session closed for user ec2-user
+Apr 19 04:24:01 ip-172-31-72-201 sudo:    root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/sbin/shutdown -h 60
+Apr 19 04:24:01 ip-172-31-72-201 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 19 04:24:01 ip-172-31-72-201 sudo: pam_unix(sudo:session): session closed for user root
+Apr 19 04:28:53 ip-172-31-72-201 sshd[1421]: Did not receive identification string from 35.172.155.194 port 60688
+Apr 19 04:28:53 ip-172-31-72-201 sshd[1422]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:LM2NpEfTOxoRPjl2OGtcglejgRX7YDREdz4ZxlFWdyc failed, status 22
+Apr 19 04:28:53 ip-172-31-72-201 sshd[1422]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:LM2NpEfTOxoRPjl2OGtcglejgRX7YDREdz4ZxlFWdyc failed, status 22
+Apr 19 04:28:53 ip-172-31-72-201 sshd[1422]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:LM2NpEfTOxoRPjl2OGtcglejgRX7YDREdz4ZxlFWdyc failed, status 22
+Apr 19 04:28:53 ip-172-31-72-201 sshd[1422]: Accepted publickey for ec2-user from 35.172.155.194 port 61313 ssh2: ECDSA-CERT ID f2d20265-1fd5-44f9-886b-d3363b31116e (serial 0) CA RSA SHA256:g8ZFoYqLVEjTLDYYVCwmBWNxIIlNCfcp/jw1LjNHU2U
+Apr 19 04:28:53 ip-172-31-72-201 sshd[1422]: pam_unix(sshd:session): session opened for user ec2-user by (uid=0)
+Apr 19 04:28:53 ip-172-31-72-201 sshd[1472]: Received disconnect from 35.172.155.194 port 61313:11: disconnected by user
+Apr 19 04:28:53 ip-172-31-72-201 sshd[1472]: Disconnected from 35.172.155.194 port 61313
+Apr 19 04:28:53 ip-172-31-72-201 sshd[1422]: pam_unix(sshd:session): session closed for user ec2-user
+Apr 19 04:28:54 ip-172-31-72-201 sshd[1481]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:aKdT1vLEIN+Gv4JTP2NfAB8eRxecqo3AU/2Tc9wTEpY failed, status 22
+Apr 19 04:28:54 ip-172-31-72-201 sshd[1481]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:aKdT1vLEIN+Gv4JTP2NfAB8eRxecqo3AU/2Tc9wTEpY failed, status 22
+Apr 19 04:28:54 ip-172-31-72-201 sshd[1481]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:aKdT1vLEIN+Gv4JTP2NfAB8eRxecqo3AU/2Tc9wTEpY failed, status 22
+Apr 19 04:28:54 ip-172-31-72-201 sshd[1481]: Accepted publickey for ec2-user from 35.172.155.192 port 60354 ssh2: ECDSA-CERT ID 6b12174a-2fda-4f70-b895-71642ad450c5 (serial 0) CA RSA SHA256:g8ZFoYqLVEjTLDYYVCwmBWNxIIlNCfcp/jw1LjNHU2U
+Apr 19 04:28:54 ip-172-31-72-201 sshd[1481]: pam_unix(sshd:session): session opened for user ec2-user by (uid=0)
+Apr 19 04:29:01 ip-172-31-72-201 sudo:    root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/sbin/shutdown -c
+Apr 19 04:29:01 ip-172-31-72-201 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 19 04:29:01 ip-172-31-72-201 sudo: pam_unix(sudo:session): session closed for user root
+Apr 19 06:47:23 ip-172-31-72-201 sshd[1531]: Received disconnect from 35.172.155.192 port 60354:11: disconnected by user
+Apr 19 06:47:23 ip-172-31-72-201 sshd[1531]: Disconnected from 35.172.155.192 port 60354
+Apr 19 06:47:23 ip-172-31-72-201 sshd[1481]: pam_unix(sshd:session): session closed for user ec2-user
+Apr 19 06:48:01 ip-172-31-72-201 sudo:    root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/sbin/shutdown -h 60
+Apr 19 06:48:01 ip-172-31-72-201 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 19 06:48:01 ip-172-31-72-201 sudo: pam_unix(sudo:session): session closed for user root
+Apr 19 06:55:54 ip-172-31-72-201 sshd[23981]: Did not receive identification string from 35.172.155.193 port 20609
+Apr 19 06:55:54 ip-172-31-72-201 sshd[23982]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:Z6VdT7zZYT2nPmN+0A5HDXD32HWaN8eHWmvchC5lMjU failed, status 22
+Apr 19 06:55:54 ip-172-31-72-201 sshd[23982]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:Z6VdT7zZYT2nPmN+0A5HDXD32HWaN8eHWmvchC5lMjU failed, status 22
+Apr 19 06:55:54 ip-172-31-72-201 sshd[23982]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:Z6VdT7zZYT2nPmN+0A5HDXD32HWaN8eHWmvchC5lMjU failed, status 22
+Apr 19 06:55:54 ip-172-31-72-201 sshd[23982]: Accepted publickey for ec2-user from 35.172.155.193 port 24177 ssh2: ECDSA-CERT ID 4b3753a9-11b1-43b1-855c-098099f77b98 (serial 0) CA RSA SHA256:g8ZFoYqLVEjTLDYYVCwmBWNxIIlNCfcp/jw1LjNHU2U
+Apr 19 06:55:54 ip-172-31-72-201 sshd[23982]: pam_unix(sshd:session): session opened for user ec2-user by (uid=0)
+Apr 19 06:55:54 ip-172-31-72-201 sshd[24032]: Received disconnect from 35.172.155.193 port 24177:11: disconnected by user
+Apr 19 06:55:54 ip-172-31-72-201 sshd[24032]: Disconnected from 35.172.155.193 port 24177
+Apr 19 06:55:54 ip-172-31-72-201 sshd[23982]: pam_unix(sshd:session): session closed for user ec2-user
+Apr 19 06:55:55 ip-172-31-72-201 sshd[24041]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:XwyaUs3tfVNPJyjPsqm4KkAuiL+PZPJkNn2DNdZKOuM failed, status 22
+Apr 19 06:55:55 ip-172-31-72-201 sshd[24041]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:XwyaUs3tfVNPJyjPsqm4KkAuiL+PZPJkNn2DNdZKOuM failed, status 22
+Apr 19 06:55:55 ip-172-31-72-201 sshd[24041]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:XwyaUs3tfVNPJyjPsqm4KkAuiL+PZPJkNn2DNdZKOuM failed, status 22
+Apr 19 06:55:55 ip-172-31-72-201 sshd[24041]: Accepted publickey for ec2-user from 35.172.155.192 port 30488 ssh2: ECDSA-CERT ID c72d5cdf-a9f5-4ea9-adcb-909d2b12448e (serial 0) CA RSA SHA256:g8ZFoYqLVEjTLDYYVCwmBWNxIIlNCfcp/jw1LjNHU2U
+Apr 19 06:55:55 ip-172-31-72-201 sshd[24041]: pam_unix(sshd:session): session opened for user ec2-user by (uid=0)
+Apr 19 06:56:01 ip-172-31-72-201 sudo:    root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/sbin/shutdown -c
+Apr 19 06:56:01 ip-172-31-72-201 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 19 06:56:01 ip-172-31-72-201 sudo: pam_unix(sudo:session): session closed for user root
+Apr 19 07:01:55 ip-172-31-72-201 sshd[24091]: Received disconnect from 35.172.155.192 port 30488:11: disconnected by user
+Apr 19 07:01:55 ip-172-31-72-201 sshd[24091]: Disconnected from 35.172.155.192 port 30488
+Apr 19 07:01:55 ip-172-31-72-201 sshd[24041]: pam_unix(sshd:session): session closed for user ec2-user
+Apr 19 07:02:01 ip-172-31-72-201 sudo:    root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/sbin/shutdown -h 60
+Apr 19 07:02:01 ip-172-31-72-201 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 19 07:02:01 ip-172-31-72-201 sudo: pam_unix(sudo:session): session closed for user root
+Apr 19 07:13:45 ip-172-31-72-201 sshd[31047]: Did not receive identification string from 35.172.155.192 port 40633
+Apr 19 07:13:45 ip-172-31-72-201 sshd[31048]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:U27e1KN7QRBw8xCGL1DDFtVt8yM3PR7YvBIJNoBbSLQ failed, status 22
+Apr 19 07:13:45 ip-172-31-72-201 sshd[31048]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:U27e1KN7QRBw8xCGL1DDFtVt8yM3PR7YvBIJNoBbSLQ failed, status 22
+Apr 19 07:13:45 ip-172-31-72-201 sshd[31048]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:U27e1KN7QRBw8xCGL1DDFtVt8yM3PR7YvBIJNoBbSLQ failed, status 22
+Apr 19 07:13:45 ip-172-31-72-201 sshd[31048]: Accepted publickey for ec2-user from 35.172.155.192 port 53954 ssh2: ECDSA-CERT ID cb902e51-93b4-4564-ba25-3014e4ce1bf1 (serial 0) CA RSA SHA256:g8ZFoYqLVEjTLDYYVCwmBWNxIIlNCfcp/jw1LjNHU2U
+Apr 19 07:13:45 ip-172-31-72-201 sshd[31048]: pam_unix(sshd:session): session opened for user ec2-user by (uid=0)
+Apr 19 07:13:45 ip-172-31-72-201 sshd[31098]: Received disconnect from 35.172.155.192 port 53954:11: disconnected by user
+Apr 19 07:13:45 ip-172-31-72-201 sshd[31098]: Disconnected from 35.172.155.192 port 53954
+Apr 19 07:13:45 ip-172-31-72-201 sshd[31048]: pam_unix(sshd:session): session closed for user ec2-user
+Apr 19 07:13:46 ip-172-31-72-201 sshd[31107]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:PxHR7+Aqa3D4Iu1ODmExRSSQEb9QOLblhVSjSiX6cwc failed, status 22
+Apr 19 07:13:46 ip-172-31-72-201 sshd[31107]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:PxHR7+Aqa3D4Iu1ODmExRSSQEb9QOLblhVSjSiX6cwc failed, status 22
+Apr 19 07:13:46 ip-172-31-72-201 sshd[31107]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:PxHR7+Aqa3D4Iu1ODmExRSSQEb9QOLblhVSjSiX6cwc failed, status 22
+Apr 19 07:13:46 ip-172-31-72-201 sshd[31107]: Accepted publickey for ec2-user from 35.172.155.192 port 25745 ssh2: ECDSA-CERT ID de1ab85b-ff0d-4acd-bdb3-102223715cf1 (serial 0) CA RSA SHA256:g8ZFoYqLVEjTLDYYVCwmBWNxIIlNCfcp/jw1LjNHU2U
+Apr 19 07:13:46 ip-172-31-72-201 sshd[31107]: pam_unix(sshd:session): session opened for user ec2-user by (uid=0)
+Apr 19 07:14:01 ip-172-31-72-201 sudo:    root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/sbin/shutdown -c
+Apr 19 07:14:01 ip-172-31-72-201 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 19 07:14:01 ip-172-31-72-201 sudo: pam_unix(sudo:session): session closed for user root
+Apr 19 07:19:46 ip-172-31-72-201 sshd[31157]: Received disconnect from 35.172.155.192 port 25745:11: disconnected by user
+Apr 19 07:19:46 ip-172-31-72-201 sshd[31157]: Disconnected from 35.172.155.192 port 25745
+Apr 19 07:19:46 ip-172-31-72-201 sshd[31107]: pam_unix(sshd:session): session closed for user ec2-user
+Apr 19 07:20:01 ip-172-31-72-201 sudo:    root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/sbin/shutdown -h 60
+Apr 19 07:20:01 ip-172-31-72-201 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 19 07:20:01 ip-172-31-72-201 sudo: pam_unix(sudo:session): session closed for user root
+Apr 19 07:31:43 ip-172-31-72-201 sshd[5795]: Did not receive identification string from 35.172.155.192 port 35464
+Apr 19 07:31:43 ip-172-31-72-201 sshd[5796]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:mVSayb6qvSw0NyUy6exDrY3N5iofMsKKjIbZ/f4jThw failed, status 22
+Apr 19 07:31:43 ip-172-31-72-201 sshd[5796]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:mVSayb6qvSw0NyUy6exDrY3N5iofMsKKjIbZ/f4jThw failed, status 22
+Apr 19 07:31:43 ip-172-31-72-201 sshd[5796]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:mVSayb6qvSw0NyUy6exDrY3N5iofMsKKjIbZ/f4jThw failed, status 22
+Apr 19 07:31:43 ip-172-31-72-201 sshd[5796]: Accepted publickey for ec2-user from 35.172.155.192 port 62825 ssh2: ECDSA-CERT ID 5eba4d41-8a3b-4f2e-88ea-6cb0a8119187 (serial 0) CA RSA SHA256:g8ZFoYqLVEjTLDYYVCwmBWNxIIlNCfcp/jw1LjNHU2U
+Apr 19 07:31:43 ip-172-31-72-201 sshd[5796]: pam_unix(sshd:session): session opened for user ec2-user by (uid=0)
+Apr 19 07:31:43 ip-172-31-72-201 sshd[5854]: Received disconnect from 35.172.155.192 port 62825:11: disconnected by user
+Apr 19 07:31:43 ip-172-31-72-201 sshd[5854]: Disconnected from 35.172.155.192 port 62825
+Apr 19 07:31:43 ip-172-31-72-201 sshd[5796]: pam_unix(sshd:session): session closed for user ec2-user
+Apr 19 07:31:44 ip-172-31-72-201 sshd[5862]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:lSBb67sxTnTRhR0HXFOp4jgae+vs1io5/+BN5yrX7Q4 failed, status 22
+Apr 19 07:31:44 ip-172-31-72-201 sshd[5862]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:lSBb67sxTnTRhR0HXFOp4jgae+vs1io5/+BN5yrX7Q4 failed, status 22
+Apr 19 07:31:44 ip-172-31-72-201 sshd[5862]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:lSBb67sxTnTRhR0HXFOp4jgae+vs1io5/+BN5yrX7Q4 failed, status 22
+Apr 19 07:31:44 ip-172-31-72-201 sshd[5862]: Accepted publickey for ec2-user from 35.172.155.192 port 35364 ssh2: ECDSA-CERT ID 996b2475-eed8-4c95-8d6b-92c4c1ff93b8 (serial 0) CA RSA SHA256:g8ZFoYqLVEjTLDYYVCwmBWNxIIlNCfcp/jw1LjNHU2U
+Apr 19 07:31:44 ip-172-31-72-201 sshd[5862]: pam_unix(sshd:session): session opened for user ec2-user by (uid=0)
+Apr 19 07:32:01 ip-172-31-72-201 sudo:    root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/sbin/shutdown -c
+Apr 19 07:32:01 ip-172-31-72-201 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 19 07:32:01 ip-172-31-72-201 sudo: pam_unix(sudo:session): session closed for user root
+Apr 19 09:56:13 ip-172-31-72-201 sshd[27501]: Did not receive identification string from 35.172.155.193 port 36789
+Apr 19 09:56:13 ip-172-31-72-201 sshd[27502]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:vkdgNMbFCja+VBojhMSCuoAL4nsLr2i/xlLjpZg/x7Y failed, status 22
+Apr 19 09:56:13 ip-172-31-72-201 sshd[27502]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:vkdgNMbFCja+VBojhMSCuoAL4nsLr2i/xlLjpZg/x7Y failed, status 22
+Apr 19 09:56:13 ip-172-31-72-201 sshd[27502]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:vkdgNMbFCja+VBojhMSCuoAL4nsLr2i/xlLjpZg/x7Y failed, status 22
+Apr 19 09:56:13 ip-172-31-72-201 sshd[27502]: Accepted publickey for ec2-user from 35.172.155.193 port 9947 ssh2: ECDSA-CERT ID 50856f30-f27b-492d-8423-28dec5214d00 (serial 0) CA RSA SHA256:g8ZFoYqLVEjTLDYYVCwmBWNxIIlNCfcp/jw1LjNHU2U
+Apr 19 09:56:13 ip-172-31-72-201 sshd[27502]: pam_unix(sshd:session): session opened for user ec2-user by (uid=0)
+Apr 19 09:56:13 ip-172-31-72-201 sshd[27552]: Received disconnect from 35.172.155.193 port 9947:11: disconnected by user
+Apr 19 09:56:13 ip-172-31-72-201 sshd[27552]: Disconnected from 35.172.155.193 port 9947
+Apr 19 09:56:13 ip-172-31-72-201 sshd[27502]: pam_unix(sshd:session): session closed for user ec2-user
+Apr 19 09:56:14 ip-172-31-72-201 sshd[27562]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:jKmDIpk8hlBNZMa+sDLBentKPY6rsChKaXAcyB4NBJo failed, status 22
+Apr 19 09:56:14 ip-172-31-72-201 sshd[27562]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:jKmDIpk8hlBNZMa+sDLBentKPY6rsChKaXAcyB4NBJo failed, status 22
+Apr 19 09:56:14 ip-172-31-72-201 sshd[27562]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:jKmDIpk8hlBNZMa+sDLBentKPY6rsChKaXAcyB4NBJo failed, status 22
+Apr 19 09:56:14 ip-172-31-72-201 sshd[27562]: Accepted publickey for ec2-user from 35.172.155.192 port 54664 ssh2: ECDSA-CERT ID 799fffd1-14e0-421c-a00d-3e22912fb1ad (serial 0) CA RSA SHA256:g8ZFoYqLVEjTLDYYVCwmBWNxIIlNCfcp/jw1LjNHU2U
+Apr 19 09:56:14 ip-172-31-72-201 sshd[27562]: pam_unix(sshd:session): session opened for user ec2-user by (uid=0)
+Apr 19 09:58:14 ip-172-31-72-201 sshd[5922]: Received disconnect from 35.172.155.192 port 35364:11: disconnected by user
+Apr 19 09:58:14 ip-172-31-72-201 sshd[5922]: Disconnected from 35.172.155.192 port 35364
+Apr 19 09:58:14 ip-172-31-72-201 sshd[5862]: pam_unix(sshd:session): session closed for user ec2-user
+Apr 19 15:19:19 ip-172-31-72-201 sshd[27612]: Received disconnect from 35.172.155.192 port 54664:11: disconnected by user
+Apr 19 15:19:19 ip-172-31-72-201 sshd[27612]: Disconnected from 35.172.155.192 port 54664
+Apr 19 15:19:19 ip-172-31-72-201 sshd[27562]: pam_unix(sshd:session): session closed for user ec2-user
+Apr 19 15:20:01 ip-172-31-72-201 sudo:    root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/sbin/shutdown -h 60
+Apr 19 15:20:01 ip-172-31-72-201 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 19 15:20:01 ip-172-31-72-201 sudo: pam_unix(sudo:session): session closed for user root
+Apr 19 16:20:01 ip-172-31-72-201 sshd[4262]: Received signal 15; terminating.
+Apr 20 20:17:52 ip-172-31-72-201 sshd[4313]: Server listening on 0.0.0.0 port 22.
+Apr 20 20:17:52 ip-172-31-72-201 sshd[4313]: Server listening on :: port 22.
+Apr 20 20:17:54 ip-172-31-72-201 sshd[4945]: Did not receive identification string from 35.172.155.194 port 33446
+Apr 20 20:17:54 ip-172-31-72-201 sshd[4948]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:/Yd7ABCxq3hPSHhYLg7UA+KjiIZBxdWaTLBFoL5yrgA failed, status 22
+Apr 20 20:17:54 ip-172-31-72-201 sshd[4948]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:/Yd7ABCxq3hPSHhYLg7UA+KjiIZBxdWaTLBFoL5yrgA failed, status 22
+Apr 20 20:17:54 ip-172-31-72-201 sshd[4948]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:/Yd7ABCxq3hPSHhYLg7UA+KjiIZBxdWaTLBFoL5yrgA failed, status 22
+Apr 20 20:17:54 ip-172-31-72-201 sshd[4948]: Accepted publickey for ec2-user from 35.172.155.194 port 60627 ssh2: ECDSA-CERT ID 8ca04bda-9474-4e72-8282-cf4d20bd7baa (serial 0) CA RSA SHA256:g8ZFoYqLVEjTLDYYVCwmBWNxIIlNCfcp/jw1LjNHU2U
+Apr 20 20:17:54 ip-172-31-72-201 sshd[4948]: pam_unix(sshd:session): session opened for user ec2-user by (uid=0)
+Apr 20 20:17:54 ip-172-31-72-201 sshd[5050]: Received disconnect from 35.172.155.194 port 60627:11: disconnected by user
+Apr 20 20:17:54 ip-172-31-72-201 sshd[5050]: Disconnected from 35.172.155.194 port 60627
+Apr 20 20:17:54 ip-172-31-72-201 sshd[4948]: pam_unix(sshd:session): session closed for user ec2-user
+Apr 20 20:17:55 ip-172-31-72-201 sshd[5092]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:tsqsmRQALib29jzdXli+HUD2m1bm2tW2Q4q/0KUn/bo failed, status 22
+Apr 20 20:17:55 ip-172-31-72-201 sshd[5092]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:tsqsmRQALib29jzdXli+HUD2m1bm2tW2Q4q/0KUn/bo failed, status 22
+Apr 20 20:17:55 ip-172-31-72-201 sshd[5092]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:tsqsmRQALib29jzdXli+HUD2m1bm2tW2Q4q/0KUn/bo failed, status 22
+Apr 20 20:17:55 ip-172-31-72-201 sshd[5092]: Accepted publickey for ec2-user from 35.172.155.194 port 44113 ssh2: ECDSA-CERT ID 935d6bca-5f7d-41b2-bad2-81caf5e37fee (serial 0) CA RSA SHA256:g8ZFoYqLVEjTLDYYVCwmBWNxIIlNCfcp/jw1LjNHU2U
+Apr 20 20:17:55 ip-172-31-72-201 sshd[5092]: pam_unix(sshd:session): session opened for user ec2-user by (uid=0)
+Apr 20 20:17:58 ip-172-31-72-201 sshd[5416]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:QwPrhSuYU7jCOOj8C6Cq3i6T5gPNyoFvMyRJl08spy4 failed, status 22
+Apr 20 20:17:58 ip-172-31-72-201 sshd[5416]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:QwPrhSuYU7jCOOj8C6Cq3i6T5gPNyoFvMyRJl08spy4 failed, status 22
+Apr 20 20:17:58 ip-172-31-72-201 sshd[5416]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:QwPrhSuYU7jCOOj8C6Cq3i6T5gPNyoFvMyRJl08spy4 failed, status 22
+Apr 20 20:17:58 ip-172-31-72-201 sshd[5416]: Accepted publickey for ec2-user from 35.172.155.193 port 32771 ssh2: ECDSA-CERT ID 2139d585-499a-4d84-a014-20072addf5a2 (serial 0) CA RSA SHA256:g8ZFoYqLVEjTLDYYVCwmBWNxIIlNCfcp/jw1LjNHU2U
+Apr 20 20:17:58 ip-172-31-72-201 sshd[5416]: pam_unix(sshd:session): session opened for user ec2-user by (uid=0)
+Apr 20 20:23:58 ip-172-31-72-201 sshd[5467]: Received disconnect from 35.172.155.193 port 32771:11: disconnected by user
+Apr 20 20:23:58 ip-172-31-72-201 sshd[5467]: Disconnected from 35.172.155.193 port 32771
+Apr 20 20:23:58 ip-172-31-72-201 sshd[5416]: pam_unix(sshd:session): session closed for user ec2-user
+Apr 20 20:31:58 ip-172-31-72-201 sshd[5142]: Received disconnect from 35.172.155.194 port 44113:11: disconnected by user
+Apr 20 20:31:58 ip-172-31-72-201 sshd[5142]: Disconnected from 35.172.155.194 port 44113
+Apr 20 20:31:58 ip-172-31-72-201 sshd[5092]: pam_unix(sshd:session): session closed for user ec2-user
+Apr 20 20:32:01 ip-172-31-72-201 sudo:    root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/sbin/shutdown -h 60
+Apr 20 20:32:01 ip-172-31-72-201 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 20 20:32:01 ip-172-31-72-201 sudo: pam_unix(sudo:session): session closed for user root
+Apr 20 21:07:29 ip-172-31-72-201 sshd[24803]: Did not receive identification string from 35.172.155.192 port 17542
+Apr 20 21:07:29 ip-172-31-72-201 sshd[24804]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:JhOvPhoxjR/AX8ITkLQXy1azAAAv2lujhKWVI1azQd8 failed, status 22
+Apr 20 21:07:29 ip-172-31-72-201 sshd[24804]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:JhOvPhoxjR/AX8ITkLQXy1azAAAv2lujhKWVI1azQd8 failed, status 22
+Apr 20 21:07:29 ip-172-31-72-201 sshd[24804]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:JhOvPhoxjR/AX8ITkLQXy1azAAAv2lujhKWVI1azQd8 failed, status 22
+Apr 20 21:07:29 ip-172-31-72-201 sshd[24804]: Accepted publickey for ec2-user from 35.172.155.192 port 5663 ssh2: ECDSA-CERT ID 209aa796-1458-41fc-afe1-dfcbd179a3e1 (serial 0) CA RSA SHA256:g8ZFoYqLVEjTLDYYVCwmBWNxIIlNCfcp/jw1LjNHU2U
+Apr 20 21:07:29 ip-172-31-72-201 sshd[24804]: pam_unix(sshd:session): session opened for user ec2-user by (uid=0)
+Apr 20 21:07:29 ip-172-31-72-201 sshd[24854]: Received disconnect from 35.172.155.192 port 5663:11: disconnected by user
+Apr 20 21:07:29 ip-172-31-72-201 sshd[24854]: Disconnected from 35.172.155.192 port 5663
+Apr 20 21:07:29 ip-172-31-72-201 sshd[24804]: pam_unix(sshd:session): session closed for user ec2-user
+Apr 20 21:07:30 ip-172-31-72-201 sshd[24864]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:ZoHtb1wrkZEhQ7Sn+Txhj7FkZGw6euR8w7hi6H0CuRg failed, status 22
+Apr 20 21:07:30 ip-172-31-72-201 sshd[24864]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:ZoHtb1wrkZEhQ7Sn+Txhj7FkZGw6euR8w7hi6H0CuRg failed, status 22
+Apr 20 21:07:30 ip-172-31-72-201 sshd[24864]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:ZoHtb1wrkZEhQ7Sn+Txhj7FkZGw6euR8w7hi6H0CuRg failed, status 22
+Apr 20 21:07:30 ip-172-31-72-201 sshd[24864]: Accepted publickey for ec2-user from 35.172.155.194 port 33800 ssh2: ECDSA-CERT ID 494c0732-75c3-46d1-b175-9960c8cd0d51 (serial 0) CA RSA SHA256:g8ZFoYqLVEjTLDYYVCwmBWNxIIlNCfcp/jw1LjNHU2U
+Apr 20 21:07:30 ip-172-31-72-201 sshd[24864]: pam_unix(sshd:session): session opened for user ec2-user by (uid=0)
+Apr 20 21:08:01 ip-172-31-72-201 sudo:    root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/sbin/shutdown -c
+Apr 20 21:08:01 ip-172-31-72-201 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 20 21:08:01 ip-172-31-72-201 sudo: pam_unix(sudo:session): session closed for user root
+Apr 20 21:13:31 ip-172-31-72-201 sshd[24914]: Received disconnect from 35.172.155.194 port 33800:11: disconnected by user
+Apr 20 21:13:31 ip-172-31-72-201 sshd[24914]: Disconnected from 35.172.155.194 port 33800
+Apr 20 21:13:31 ip-172-31-72-201 sshd[24864]: pam_unix(sshd:session): session closed for user ec2-user
+Apr 20 21:14:01 ip-172-31-72-201 sudo:    root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/sbin/shutdown -h 60
+Apr 20 21:14:01 ip-172-31-72-201 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 20 21:14:01 ip-172-31-72-201 sudo: pam_unix(sudo:session): session closed for user root
+Apr 20 22:11:17 ip-172-31-72-201 sshd[2649]: Did not receive identification string from 35.172.155.192 port 20230
+Apr 20 22:11:17 ip-172-31-72-201 sshd[2650]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:HKKwgKsEBM50/it+9RbV9Jn+9jV3dO2v7Cy4TQPE/ro failed, status 22
+Apr 20 22:11:17 ip-172-31-72-201 sshd[2650]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:HKKwgKsEBM50/it+9RbV9Jn+9jV3dO2v7Cy4TQPE/ro failed, status 22
+Apr 20 22:11:17 ip-172-31-72-201 sshd[2650]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:HKKwgKsEBM50/it+9RbV9Jn+9jV3dO2v7Cy4TQPE/ro failed, status 22
+Apr 20 22:11:17 ip-172-31-72-201 sshd[2650]: fatal: Access denied for user ec2-user by PAM account configuration [preauth]
+Apr 20 22:11:20 ip-172-31-72-201 sshd[2714]: Did not receive identification string from 35.172.155.194 port 34393
+Apr 20 22:11:20 ip-172-31-72-201 sshd[2715]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:hOBX0EyGK8ocDiXhvsganBdHhJBObEUzA25fc9LVVJA failed, status 22
+Apr 20 22:11:20 ip-172-31-72-201 sshd[2715]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:hOBX0EyGK8ocDiXhvsganBdHhJBObEUzA25fc9LVVJA failed, status 22
+Apr 20 22:11:20 ip-172-31-72-201 sshd[2715]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:hOBX0EyGK8ocDiXhvsganBdHhJBObEUzA25fc9LVVJA failed, status 22
+Apr 20 22:11:20 ip-172-31-72-201 sshd[2715]: fatal: Access denied for user ec2-user by PAM account configuration [preauth]
+Apr 20 22:11:23 ip-172-31-72-201 sshd[2784]: Did not receive identification string from 35.172.155.192 port 28609
+Apr 20 22:11:23 ip-172-31-72-201 sshd[2785]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:2W7bhwhXwTo5V9wy8x4EgN3rmjOHKqPWus27/PmfA6s failed, status 22
+Apr 20 22:11:23 ip-172-31-72-201 sshd[2785]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:2W7bhwhXwTo5V9wy8x4EgN3rmjOHKqPWus27/PmfA6s failed, status 22
+Apr 20 22:11:23 ip-172-31-72-201 sshd[2785]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:2W7bhwhXwTo5V9wy8x4EgN3rmjOHKqPWus27/PmfA6s failed, status 22
+Apr 20 22:11:23 ip-172-31-72-201 sshd[2785]: fatal: Access denied for user ec2-user by PAM account configuration [preauth]
+Apr 20 22:14:01 ip-172-31-72-201 sshd[4313]: Received signal 15; terminating.
+Apr 21 15:25:43 ip-172-31-72-201 sshd[4315]: Server listening on 0.0.0.0 port 22.
+Apr 21 15:25:43 ip-172-31-72-201 sshd[4315]: Server listening on :: port 22.
+Apr 21 15:25:43 ip-172-31-72-201 sshd[4612]: Did not receive identification string from 35.172.155.192 port 36065
+Apr 21 15:25:43 ip-172-31-72-201 sshd[4622]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:HamiGX0qdToSYCHNLxn3QZJ55hsTyQZqxymwusyXYZE failed, status 22
+Apr 21 15:25:43 ip-172-31-72-201 sshd[4622]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:HamiGX0qdToSYCHNLxn3QZJ55hsTyQZqxymwusyXYZE failed, status 22
+Apr 21 15:25:43 ip-172-31-72-201 sshd[4622]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:HamiGX0qdToSYCHNLxn3QZJ55hsTyQZqxymwusyXYZE failed, status 22
+Apr 21 15:25:43 ip-172-31-72-201 sshd[4622]: Accepted publickey for ec2-user from 35.172.155.192 port 35032 ssh2: ECDSA-CERT ID 630755dd-2c60-47af-be50-1d427be166ed (serial 0) CA RSA SHA256:g8ZFoYqLVEjTLDYYVCwmBWNxIIlNCfcp/jw1LjNHU2U
+Apr 21 15:25:43 ip-172-31-72-201 sshd[4622]: pam_unix(sshd:session): session opened for user ec2-user by (uid=0)
+Apr 21 15:25:43 ip-172-31-72-201 sshd[4760]: Received disconnect from 35.172.155.192 port 35032:11: disconnected by user
+Apr 21 15:25:43 ip-172-31-72-201 sshd[4760]: Disconnected from 35.172.155.192 port 35032
+Apr 21 15:25:43 ip-172-31-72-201 sshd[4622]: pam_unix(sshd:session): session closed for user ec2-user
+Apr 21 15:25:44 ip-172-31-72-201 sshd[4973]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:crdZCQT375ZXCQJlsz0U5a+zQKp+MpFpL3WNrzTbEPM failed, status 22
+Apr 21 15:25:44 ip-172-31-72-201 sshd[4973]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:crdZCQT375ZXCQJlsz0U5a+zQKp+MpFpL3WNrzTbEPM failed, status 22
+Apr 21 15:25:44 ip-172-31-72-201 sshd[4973]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:crdZCQT375ZXCQJlsz0U5a+zQKp+MpFpL3WNrzTbEPM failed, status 22
+Apr 21 15:25:44 ip-172-31-72-201 sshd[4973]: Accepted publickey for ec2-user from 35.172.155.192 port 31760 ssh2: ECDSA-CERT ID 9d268cba-ba16-4f3e-a0c8-372f71dcd549 (serial 0) CA RSA SHA256:g8ZFoYqLVEjTLDYYVCwmBWNxIIlNCfcp/jw1LjNHU2U
+Apr 21 15:25:44 ip-172-31-72-201 sshd[4973]: pam_unix(sshd:session): session opened for user ec2-user by (uid=0)
+Apr 21 15:25:47 ip-172-31-72-201 sshd[5380]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:+P++4UB8AgShqfQzi8tEDA+e8SPXuQ0ZZ5nKlWCBYoc failed, status 22
+Apr 21 15:25:47 ip-172-31-72-201 sshd[5380]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:+P++4UB8AgShqfQzi8tEDA+e8SPXuQ0ZZ5nKlWCBYoc failed, status 22
+Apr 21 15:25:47 ip-172-31-72-201 sshd[5380]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:+P++4UB8AgShqfQzi8tEDA+e8SPXuQ0ZZ5nKlWCBYoc failed, status 22
+Apr 21 15:25:47 ip-172-31-72-201 sshd[5380]: Accepted publickey for ec2-user from 35.172.155.193 port 50383 ssh2: ECDSA-CERT ID 46951299-9049-4f14-bc4f-fb4c555a31d9 (serial 0) CA RSA SHA256:g8ZFoYqLVEjTLDYYVCwmBWNxIIlNCfcp/jw1LjNHU2U
+Apr 21 15:25:47 ip-172-31-72-201 sshd[5380]: pam_unix(sshd:session): session opened for user ec2-user by (uid=0)
+Apr 21 15:31:48 ip-172-31-72-201 sshd[5446]: Received disconnect from 35.172.155.193 port 50383:11: disconnected by user
+Apr 21 15:31:48 ip-172-31-72-201 sshd[5446]: Disconnected from 35.172.155.193 port 50383
+Apr 21 15:31:48 ip-172-31-72-201 sshd[5380]: pam_unix(sshd:session): session closed for user ec2-user
+Apr 22 01:17:32 ip-172-31-72-201 sshd[5106]: Received disconnect from 35.172.155.192 port 31760:11: disconnected by user
+Apr 22 01:17:32 ip-172-31-72-201 sshd[5106]: Disconnected from 35.172.155.192 port 31760
+Apr 22 01:17:32 ip-172-31-72-201 sshd[4973]: pam_unix(sshd:session): session closed for user ec2-user
+Apr 22 01:18:01 ip-172-31-72-201 sudo:    root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/sbin/shutdown -h 60
+Apr 22 01:18:01 ip-172-31-72-201 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 22 01:18:01 ip-172-31-72-201 sudo: pam_unix(sudo:session): session closed for user root
+Apr 22 01:35:44 ip-172-31-72-201 sshd[30953]: Did not receive identification string from 35.172.155.194 port 43264
+Apr 22 01:35:44 ip-172-31-72-201 sshd[30954]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:nBV2OQA7JumWzy6XlB1N/JzfhOvFoRx22rSScfHf7mw failed, status 22
+Apr 22 01:35:44 ip-172-31-72-201 sshd[30954]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:nBV2OQA7JumWzy6XlB1N/JzfhOvFoRx22rSScfHf7mw failed, status 22
+Apr 22 01:35:45 ip-172-31-72-201 sshd[30954]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:nBV2OQA7JumWzy6XlB1N/JzfhOvFoRx22rSScfHf7mw failed, status 22
+Apr 22 01:35:45 ip-172-31-72-201 sshd[30954]: Accepted publickey for ec2-user from 35.172.155.194 port 45544 ssh2: ECDSA-CERT ID 3e123881-2ad9-4f60-82f0-234d968ae741 (serial 0) CA RSA SHA256:g8ZFoYqLVEjTLDYYVCwmBWNxIIlNCfcp/jw1LjNHU2U
+Apr 22 01:35:45 ip-172-31-72-201 sshd[30954]: pam_unix(sshd:session): session opened for user ec2-user by (uid=0)
+Apr 22 01:35:45 ip-172-31-72-201 sshd[31004]: Received disconnect from 35.172.155.194 port 45544:11: disconnected by user
+Apr 22 01:35:45 ip-172-31-72-201 sshd[31004]: Disconnected from 35.172.155.194 port 45544
+Apr 22 01:35:45 ip-172-31-72-201 sshd[30954]: pam_unix(sshd:session): session closed for user ec2-user
+Apr 22 01:50:46 ip-172-31-72-201 sshd[4128]: Did not receive identification string from 35.172.155.194 port 40225
+Apr 22 01:50:46 ip-172-31-72-201 sshd[4130]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:5e7D6SfnloK52h6wo++IifURbUHgEvnrIOShid+vVUc failed, status 22
+Apr 22 01:50:46 ip-172-31-72-201 sshd[4130]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:5e7D6SfnloK52h6wo++IifURbUHgEvnrIOShid+vVUc failed, status 22
+Apr 22 01:50:46 ip-172-31-72-201 sshd[4130]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:5e7D6SfnloK52h6wo++IifURbUHgEvnrIOShid+vVUc failed, status 22
+Apr 22 01:50:46 ip-172-31-72-201 sshd[4130]: Accepted publickey for ec2-user from 35.172.155.194 port 44027 ssh2: ECDSA-CERT ID ce5945b0-d0a5-43f1-b729-311dd4f29ba5 (serial 0) CA RSA SHA256:g8ZFoYqLVEjTLDYYVCwmBWNxIIlNCfcp/jw1LjNHU2U
+Apr 22 01:50:46 ip-172-31-72-201 sshd[4130]: pam_unix(sshd:session): session opened for user ec2-user by (uid=0)
+Apr 22 01:50:46 ip-172-31-72-201 sshd[4184]: Received disconnect from 35.172.155.194 port 44027:11: disconnected by user
+Apr 22 01:50:46 ip-172-31-72-201 sshd[4184]: Disconnected from 35.172.155.194 port 44027
+Apr 22 01:50:46 ip-172-31-72-201 sshd[4130]: pam_unix(sshd:session): session closed for user ec2-user
+Apr 22 01:50:47 ip-172-31-72-201 sshd[4193]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:8BmsSkGrPaqnkgroEBpnFfQi7SVQQ/vRYowlytFJMPI failed, status 22
+Apr 22 01:50:47 ip-172-31-72-201 sshd[4193]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:8BmsSkGrPaqnkgroEBpnFfQi7SVQQ/vRYowlytFJMPI failed, status 22
+Apr 22 01:50:48 ip-172-31-72-201 sshd[4193]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:8BmsSkGrPaqnkgroEBpnFfQi7SVQQ/vRYowlytFJMPI failed, status 22
+Apr 22 01:50:48 ip-172-31-72-201 sshd[4193]: Accepted publickey for ec2-user from 35.172.155.192 port 16396 ssh2: ECDSA-CERT ID 2c15c41b-081f-4890-b3f3-b403e90877db (serial 0) CA RSA SHA256:g8ZFoYqLVEjTLDYYVCwmBWNxIIlNCfcp/jw1LjNHU2U
+Apr 22 01:50:48 ip-172-31-72-201 sshd[4193]: pam_unix(sshd:session): session opened for user ec2-user by (uid=0)
+Apr 22 01:50:49 ip-172-31-72-201 sshd[4628]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:n6zXstAliQlyfrHNq7naTWkZ0d3aNAHiSwCTBYolEO0 failed, status 22
+Apr 22 01:50:50 ip-172-31-72-201 sshd[4628]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:n6zXstAliQlyfrHNq7naTWkZ0d3aNAHiSwCTBYolEO0 failed, status 22
+Apr 22 01:50:50 ip-172-31-72-201 sshd[4628]: error: AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys ec2-user SHA256:n6zXstAliQlyfrHNq7naTWkZ0d3aNAHiSwCTBYolEO0 failed, status 22
+Apr 22 01:50:50 ip-172-31-72-201 sshd[4628]: Accepted publickey for ec2-user from 35.172.155.194 port 31938 ssh2: ECDSA-CERT ID 07f341da-9597-4d00-969c-26637f8840f7 (serial 0) CA RSA SHA256:g8ZFoYqLVEjTLDYYVCwmBWNxIIlNCfcp/jw1LjNHU2U
+Apr 22 01:50:50 ip-172-31-72-201 sshd[4628]: pam_unix(sshd:session): session opened for user ec2-user by (uid=0)
+Apr 22 01:51:02 ip-172-31-72-201 sudo:    root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/sbin/shutdown -c
+Apr 22 01:51:02 ip-172-31-72-201 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 22 01:51:02 ip-172-31-72-201 sudo: pam_unix(sudo:session): session closed for user root
+Apr 22 01:56:50 ip-172-31-72-201 sshd[4689]: Received disconnect from 35.172.155.194 port 31938:11: disconnected by user
+Apr 22 01:56:50 ip-172-31-72-201 sshd[4689]: Disconnected from 35.172.155.194 port 31938
+Apr 22 01:56:50 ip-172-31-72-201 sshd[4628]: pam_unix(sshd:session): session closed for user ec2-user
+Apr 22 01:59:22 ip-172-31-72-201 sudo: ec2-user : TTY=pts/2 ; PWD=/home/ec2-user/environment/Python_Scripts/PythonScripts ; USER=root ; COMMAND=/bin/cat /var/log/messages
+Apr 22 01:59:22 ip-172-31-72-201 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 22 01:59:25 ip-172-31-72-201 sudo: pam_unix(sudo:session): session closed for user root
+Apr 22 03:09:10 ip-172-31-72-201 sudo: ec2-user : TTY=pts/2 ; PWD=/home/ec2-user/environment/Python_Scripts/PythonScripts ; USER=root ; COMMAND=/bin/cat /var/log/secure
+Apr 22 03:09:10 ip-172-31-72-201 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
