@@ -34,7 +34,29 @@ class mythread:
 def ThreadingExample(FunctionName):
     thread = threading.Thread(target=FunctionName)
     thread.start()
-    #print(thread.name)
+    print(thread.name)
+    
+def RemoveNums(Input, Val):
+    count = 0
+    for i in range(len(Input)):
+        if Input[i] == Val:
+            Input[i] = int(0)
+            count = count + 1 
+    Input = sorted(Input)
+    return Input, count
+    
+def NeedleHayStack(Needle, HayStack):
+    #print(HayStack.find(Needle))
+    
+    if len(Needle) < len(HayStack):
+        for i in range(len(HayStack)):
+            #print(HayStack[i:len(Needle)+i])
+            if Needle == HayStack[i:len(Needle)+i]:
+                #print("Found")
+                #print(i)
+                return i 
+        return -1
+            
 #CountRepeatWords('Hello My Name Earl My')
 #print(LargestOccurence(CountRepeatWords('Hello My Name Name Name Earl My My My My')))
 
@@ -46,4 +68,9 @@ def ThreadingExample(FunctionName):
 #print(MyThread)
 #NewThread.StopThread(MyThread)
 
-ThreadingExample(CountRepeatWords('Hello My Name Name Name Earl My My My My'))
+#ThreadingExample(CountRepeatWords('Hello My Name Name Name Earl My My My My'))
+#nums = [3,2,2,3] 
+#val = 3
+#print(RemoveNums(nums, val))
+
+print(NeedleHayStack("aba", "aaaaa"))
