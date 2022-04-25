@@ -8,16 +8,15 @@ def WebScraper(URL, data):
     #print(webdata.text)
     return webdata
 def SoupPriceChecker(webdata):
-    mydata = []
-
+    print(webdata.raw)
     html = BeautifulSoup(webdata.text, 'html.parser')
     #test = html.body.main.article
     test = html.find_all('a', {"ProductLink_645485"})
-    if test.find_all('a', {'data-price'} ) == "499.99":
-        print(True)
+    #if test.find_all('a', {'data-price'} ) == "499.99":
+    #    print(True)
     
     #print(html.body.main.article.prettify())
-    #print(test)
+    print(test)
 
     
 mydata = WebScraper('https://www.microcenter.com/category/4294967288,4294820432,4294816489/macbook-air', 'Rekognition')
