@@ -46,8 +46,6 @@ def RemoveNums(Input, Val):
     return Input, count
     
 def NeedleHayStack(Needle, HayStack):
-    #print(HayStack.find(Needle))
-    
     if len(Needle) < len(HayStack):
         for i in range(len(HayStack)):
             #print(HayStack[i:len(Needle)+i])

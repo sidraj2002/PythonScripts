@@ -183,7 +183,40 @@ def DataFetcher2(Period, InputData):
             print(InputData)
         else:
             continue
+        
+def LongestCommonPrefix(InputArray):
+    MyPrefix = ''
+    count = 0
+    MyArray = iter(InputArray)
+    for i in range(len(InputArray[0])):
+        item = next(MyArray)
+        print(item[count])
+        if MyArray[0][i] == item[i]:
+            MyPrefix += MyArray[0][i]
+            count = count + 1
+    print(MyPrefix)
 
+def FindTargetNum(SortedNumList, Target):
+    tmp = len(SortedNumList)
+    tmp = round(tmp/2)
+    #print(tmp)
+    #print(SortedNumList[tmp])
+    
+    if Target >= SortedNumList[tmp]:
+        for i in range(tmp,len(SortedNumList),1):
+            if SortedNumList[i] == Target:
+                print("Found at " + str(i))
+                return i
+            if (SortedNumList[i] > Target) and (SortedNumList[i+1] < Target):
+                return i
+    else:
+        for i in range(tmp,0,-1):
+            if SortedNumList[i] == Target:
+                print("Found at " + str(i))
+                return i
+            if (SortedNumList[i] > Target) and (SortedNumList[i-1] < Target):
+                return i
+    
 #print(ReverseString('abcdefghijk'))
 #print(Palindrom2('1211'))
 #ReverseString('siddharth')
@@ -201,12 +234,17 @@ def DataFetcher2(Period, InputData):
 #    counter = counter + 1
 #    time.sleep(1)
 #DataFetcher(10,'/home/ec2-user/environment/Python_Scripts/PythonScripts/testdir/testlog.txt')
+'''Data Fetcher Input Code - Come back later 
 data = ()
 for i in range(60):
     randStr = ''.join(random.choice(string.ascii_letters) for i in range(10))
     data = (data) + tuple([DataWriter2(randStr)])
 #print(data)
 DataFetcher2(-10, data)
+'''
+#LongestCommonPrefix(["decreate","dexvd","defefdfd","defdfdg"])
+FindTargetNum([1,3,5,6], 2)
+
 '''
 Use following:
 .join
