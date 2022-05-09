@@ -216,7 +216,51 @@ def FindTargetNum(SortedNumList, Target):
                 return i
             if (SortedNumList[i] > Target) and (SortedNumList[i-1] < Target):
                 return i
+                
+def SumTarget(Input, Target):
+    for i in Input:
+        for j in Input:
+            Sum = i + j
+            if Sum == Target:
+                print(i,j)
+    mydict = {}
+    count = 0
+    for i in Input:
+        mydict[i] = count
+        count = count + 1
     
+def FindFirstRepeat(InputArray):
+    mydict = {}
+    for i in range(len(InputArray)):
+        if InputArray[i] in mydict:
+            print(InputArray[i],i)
+            return InputArray[i]
+        mydict[i] = InputArray[i]
+        
+def MaxiumumSubArray(InputArray):
+    targetSum = 0
+    mySum = 0
+    i = 0
+    for i in range(len(InputArray)):
+        mySum += InputArray[i]
+        #print(mySum)
+        if (mySum < targetSum) and (targetSum > 0):
+            newHigh = targetSum
+        if (mySum + targetSum) >= targetSum:
+            targetSum = mySum
+        if (mySum + targetSum) < targetSum:
+            mySum = 0
+            targetSum = 0
+    print(newHigh)
+    print(targetSum)
+
+def SpiralMatrix(InputArray):
+    
+    for i in range(len(InputArray)):
+            print(InputArray[i])
+            for j in range(len(InputArray[i])):
+                print(InputArray[i][j])
+                
 #print(ReverseString('abcdefghijk'))
 #print(Palindrom2('1211'))
 #ReverseString('siddharth')
@@ -243,7 +287,11 @@ for i in range(60):
 DataFetcher2(-10, data)
 '''
 #LongestCommonPrefix(["decreate","dexvd","defefdfd","defdfdg"])
-FindTargetNum([1,3,5,6], 2)
+#SumTarget([2,3,11,7], 9)
+
+#FindFirstRepeat([1,3,5,6,4,3,9,3])
+#MaxiumumSubArray([5,4,-1,7,8])
+SpiralMatrix([[1,2,3],[4,5,6],[7,8,9]])
 
 '''
 Use following:

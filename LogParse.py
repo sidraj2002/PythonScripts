@@ -11,6 +11,18 @@ def Parser(LogPath, Match):
                 f2 = open(LogPath+'filtered', 'a')
                 f2.write(file)
                 f2.close()
-                
-        
-Parser('/home/ec2-user/environment/Python_Scripts/PythonScripts/testdir/testlog2', '35.172.155.192')   
+ 
+def ipChecker(InputIP):
+    count = 0
+    for i in InputIP.split('.'):
+        if (int(i)<255) and (int(i)>=0) and ((int(i[0]) == 0) and (int(i) == 0)):
+            count = count + 1
+        else:
+            print("invalid Ipv4")
+            exit()
+    if count < 5:
+        print("Valid Ipv4")
+    else:
+        print("invalid Ipv4")
+#Parser('/home/ec2-user/environment/Python_Scripts/PythonScripts/testdir/testlog2', '35.172.155.192')   
+ipChecker('192.168.0.225')
