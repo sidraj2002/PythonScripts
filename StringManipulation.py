@@ -254,13 +254,62 @@ def MaxiumumSubArray(InputArray):
     print(newHigh)
     print(targetSum)
 
-def SpiralMatrix(InputArray):
-    
-    for i in range(len(InputArray)):
-            print(InputArray[i])
-            for j in range(len(InputArray[i])):
-                print(InputArray[i][j])
+def BubbleSort(Input):
+    x = 0
+    dict = {}
+    count = 0
+    for i in Input:
+        dict[count] = i
+    for i in range(len(Input)-1,0,-1):
+        for j in range(i):
+            if Input[j] > Input[j+1]:
+                x = Input[j]
+                Input[j] = Input[j+1]
+                Input[j+1] = x
                 
+def mergeSort(InputList):
+    
+    if len(InputList) > 1:
+        
+        midpoint = len(InputList)//2
+    
+        Left = InputList[:int(midpoint)]
+        Right = InputList[int(midpoint):]
+        print(Left)
+        print(Right)
+    
+        mergeSort(Left)
+        mergeSort(Right)
+        
+        i = j = k = 0
+        
+        while i < len(Left) and j < len(Right):
+            if Left[i] < Right[j]:
+                InputList[k] = Left[i]
+                i += 1
+            else:
+                InputList[k] = Right[j]
+                j += 1
+            k += 1
+def printList(arr):
+    for i in range(len(arr)):
+        print(arr[i], end=" ")
+    print()        
+
+def PhoneCombination(Number):
+    numLookup = {}
+    numLookup = {"2":"abc","3":"def","4":"ghi","5":"jkl","6":"nmo","7":"pqrs","8":"tuv","9":"wxyz"}
+    letters = []
+    combo = []
+    concat = ""
+    for i in range(len(Number)):
+        letters.append(numLookup.get(Number[i]))
+    print(letters)
+    for i in range(len(letters)):
+        for j in range(len(letters[i])):
+            #combo += str(letters[i]+letters[j])
+            print(letters[i][j]+letters[j][i])
+    print(combo)       
 #print(ReverseString('abcdefghijk'))
 #print(Palindrom2('1211'))
 #ReverseString('siddharth')
@@ -291,8 +340,11 @@ DataFetcher2(-10, data)
 
 #FindFirstRepeat([1,3,5,6,4,3,9,3])
 #MaxiumumSubArray([5,4,-1,7,8])
-SpiralMatrix([[1,2,3],[4,5,6],[7,8,9]])
-
+#SpiralMatrix([[1,2,3],[4,5,6],[7,8,9]])
+#arr = [2,5,1,3,6,4,6,10]
+#mergeSort(arr)
+#printList(arr)
+PhoneCombination("23")
 '''
 Use following:
 .join
