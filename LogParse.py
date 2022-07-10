@@ -45,14 +45,13 @@ def LogParse2(LogPath):
         for entry in logData:
             f.write(json.dumps(entry, indent = 4))
         f.close()
+
+dict02 = {"TimeStamp":{"InstanceID":"i-sfasda2", "VolumeMapping":{"root":"xvda1", "Secondary":"xvda2"}, "Subnet":"sub-23232"}}
+print(dict02['TimeStamp']["VolumeMapping"].get("root"))
     
 #LogParse2('/home/ec2-user/environment/Python_Scripts/PythonScripts/testdir/cloud-init.log')   
 #ipChecker('192.168.0.225')
 #dict01 = {"22:30:52":{"InstanceID":"i-2434312tts",{"VolumeMapping":{"root":"xvda1","Secondary":"xvda2"}},{"Subnet":"sub-34242sdv"}}}
-
-dict02 = {"TimeStamp":{"InstanceID":"i-sfasda2", "VolumeMapping":{"root":"xvda1", "Secondary":"xvda2"}, "Subnet":"sub-23232"}}
-
-print(dict02['TimeStamp']["VolumeMapping"].get("root"))
 
 
 ''' Lookup for Interview 
