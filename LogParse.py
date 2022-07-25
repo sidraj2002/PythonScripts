@@ -2,6 +2,19 @@ import time
 import re
 import json
 
+class Node:
+    def __init__(self, data):
+        self.data = data
+        self.next = None
+class LinkedList:
+    def __init__(self):
+        self.head = None
+    def PrintList(self):
+        printval = self.head
+        while printval != None:
+            print(printval.data)
+            printval = printval.next
+
 def Parser(LogPath, Match):
     with open(LogPath, 'r') as f:
         while f.readline():
@@ -46,10 +59,50 @@ def LogParse2(LogPath):
             f.write(json.dumps(entry, indent = 4))
         f.close()
 
-dict02 = {"TimeStamp":{"InstanceID":"i-sfasda2", "VolumeMapping":{"root":"xvda1", "Secondary":"xvda2"}, "Subnet":"sub-23232"}}
-print(dict02['TimeStamp']["VolumeMapping"].get("root"))
+def LogParse3(LogPath):
+    dict01 = {}
+    mylist = LinkedList()
+    iterator = 0
+    with open(LogPath, 'r') as f:
+        while f.readline():
+            line = f.readline()
+            split = line.split(' ')
+            #print(split)
+            if iterator == 0:
+                mylist.head = Node(split)
+                iterator += 1
+            else:
+                mylistItr = Node(split)
+                iterator += 1
+'''    mylist.head.next = mylistItr1
+    for i in range(1,len(iterator)):
+        mylistItr+str(i-1).next = mylistItr[i]
+        
+    mylist.PrintList()
+'''            
+            
+
+#dict02 = {"TimeStamp":{"InstanceID":"i-sfasda2", "VolumeMapping":{"root":"xvda1", "Secondary":"xvda2"}, "Subnet":"sub-23232"}}
+#print(dict02['TimeStamp']["VolumeMapping"].get("root"))
     
-#LogParse2('/home/ec2-user/environment/Python_Scripts/PythonScripts/testdir/cloud-init.log')   
+#LogParse3('/home/ec2-user/environment/Python_Scripts/PythonScripts/testdir/cloud-init.log')   
+
+list01 = ['ab', 'cd', 'ef', 'gh', 'ij']
+iterator = 0
+
+dict01 = {}
+
+for i in list01:
+    dict01[i] = iterator
+    iterator += 1
+print(dict01)
+
+print(dict01.get('gh'))
+
+for k,v in dict01.items():
+    print(k)
+
+
 #ipChecker('192.168.0.225')
 #dict01 = {"22:30:52":{"InstanceID":"i-2434312tts",{"VolumeMapping":{"root":"xvda1","Secondary":"xvda2"}},{"Subnet":"sub-34242sdv"}}}
 

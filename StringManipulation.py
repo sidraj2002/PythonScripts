@@ -309,7 +309,19 @@ def PhoneCombination(Number):
         for j in range(len(letters[i])):
             #combo += str(letters[i]+letters[j])
             print(letters[i][j]+letters[j][i])
-    print(combo)       
+    print(combo) 
+    
+def rotateImage(Matrix, angle):
+    
+    if angle == 90:
+        Matrix.reverse()
+        for i in range(len(Matrix)):
+            for j in range(i):
+                
+                Matrix[i][j], Matrix[j][i] = Matrix[j][i], Matrix[i][j]
+    print(Matrix)
+    #print(newMatrix)
+    
 #print(ReverseString('abcdefghijk'))
 #print(Palindrom2('1211'))
 #ReverseString('siddharth')
@@ -319,6 +331,8 @@ def PhoneCombination(Number):
 #print(numberofwords)
 #print(LongestNonRepeatingString('pwwkew'))
 #print(longestPalindromSubstring('dvd'))
+inputmatrix = [[1,2,3],[4,5,6],[7,8,9]]
+rotateImage(inputmatrix, 90)
 ''' File reader / Write '''
 #counter = 0
 #while counter < 60:
@@ -344,7 +358,7 @@ DataFetcher2(-10, data)
 #arr = [2,5,1,3,6,4,6,10]
 #mergeSort(arr)
 #printList(arr)
-PhoneCombination("23")
+#PhoneCombination("23")
 '''
 Use following:
 .join
